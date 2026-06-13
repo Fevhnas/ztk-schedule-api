@@ -1,0 +1,38 @@
+name: Update Schedule JSON
+
+on:
+  schedule:
+    # Запуск каждый день в 4:00 и 16:00 по UTC (это 7:00 и 19:00 по Киеву)
+    - cron: '0 4,12,13,15,16 * * *'
+  workflow_dispatch: # Позволяет запускать скрипт кнопкой из интерфейса GitHub
+
+permissions:
+  contents: write # Разрешаем боту пушить изменения обратно в репозиторий
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run parser
+        # Скрипт выводит JSON в терминал[cite: 1], мы перенаправляем это в файл
+        run: python ztk_schedule.py > schedule.json
+
+      - name: Commit and push JSON
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add schedule.json
+          git commit -m "Auto-update schedule.json" || exit 0
+          git push
