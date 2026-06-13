@@ -4,7 +4,7 @@ ZTK Schedule fetcher for Caelestia dashboard.
 Outputs JSON with both main schedule and substitutions merged for a target group.
 
 Usage:
-    python ztk_schedule.py [GROUP]
+    
     defaults to Ел11
 """
 
