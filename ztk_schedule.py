@@ -19,7 +19,7 @@ from datetime import datetime, timedelta
 
 # ── Config ──────────────────────────────────────────────────────────────────
 TARGET_GROUP = sys.argv[1] if len(sys.argv) > 1 else "Ел11"
-MAIN_PDF_PATH = os.path.expanduser("1Curs-TEST.pdf")
+MAIN_PDF_PATH = "1Curs-TEST.pdf"
 SUBS_URL_TEMPLATE = "https://ztk.org.ua/files/{date}.pdf"
 
 DAY_NAMES = ["Понеділок", "Вівторок", "Середа", "Четвер", "П'ятниця", "Субота", "Неділя"]
