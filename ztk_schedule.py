@@ -1,25 +1,22 @@
 #!/usr/bin/env python3
 """
-ZTK Schedule fetcher for Caelestia dashboard.
-Outputs JSON with both main schedule and substitutions merged for a target group.
-
-Usage:
-    
-    defaults to Ел11
+ZTK Schedule fetcher for Caelestia dashboard & Android Widget.
+Automated multi-course and multi-group API generator.
 """
 
 import os
 import sys
 import json
 import re
+import io
 import requests
 import pdfplumber
 import tempfile
+import urllib.parse
 from datetime import datetime, timedelta
 
 # ── Config ──────────────────────────────────────────────────────────────────
-TARGET_GROUP = sys.argv[1] if len(sys.argv) > 1 else "Ел11"
-MAIN_PDF_PATH = "1Curs-TEST.pdf"
+MAIN_URL_TEMPLATE = "https://ztk.org.ua/files/{course_encoded}.pdf"
 SUBS_URL_TEMPLATE = "https://ztk.org.ua/files/{date}.pdf"
 
 DAY_NAMES = ["Понеділок", "Вівторок", "Середа", "Четвер", "П'ятниця", "Субота", "Неділя"]
@@ -40,7 +37,19 @@ def format_date(date: datetime) -> str:
 def day_name(date: datetime) -> str:
     return DAY_NAMES[date.weekday()]
 
-# ── Substitutions parser ─────────────────────────────────────────────────────
+# ── Network Fetchers ─────────────────────────────────────────────────────────
+
+def fetch_main_pdf(course: int) -> bytes | None:
+    course_text = f"Розклад занять {course} курс"
+    course_encoded = urllib.parse.quote(course_text)
+    url = MAIN_URL_TEMPLATE.format(course_encoded=course_encoded)
+    try:
+        r = requests.get(url, timeout=15)
+        if r.status_code == 200 and b'%PDF' in r.content[:8]:
+            return r.content
+    except requests.RequestException:
+        pass
+    return None
 
 def fetch_subs_pdf(date: datetime) -> bytes | None:
     url = SUBS_URL_TEMPLATE.format(date=format_date(date))
@@ -51,6 +60,33 @@ def fetch_subs_pdf(date: datetime) -> bytes | None:
     except requests.RequestException:
         pass
     return None
+
+# ── Group Discovery ──────────────────────────────────────────────────────────
+
+def get_table_groups(table) -> list:
+    fmt = detect_pdf_format(table)
+    groups = set()
+    group_regex = r'^[А-ЯЄІЇа-яєіїA-Z]{1,4}\d+[А-ЯЄІЇa-zA-Zа-яєіїa-z]?$'
+    
+    if fmt == 'wide':
+        if len(table) >= 3 and table[0][2]:
+            tokens = str(table[0][2]).replace('\n', ' ').split()
+            for t in tokens:
+                clean = t.strip().replace(' ', '')
+                if re.match(group_regex, clean) and clean != 'ирап':
+                    groups.add(clean)
+    else:
+        for row in table[:5]:
+            for cell in row:
+                if cell:
+                    tokens = str(cell).replace('\n', ' ').split()
+                    for t in tokens:
+                        clean = t.strip().replace(' ', '')
+                        if re.match(group_regex, clean):
+                            groups.add(clean)
+    return sorted(list(groups))
+
+# ── Substitutions parser ─────────────────────────────────────────────────────
 
 def parse_subs_pdf(pdf_bytes: bytes, group: str) -> dict:
     result = {}
@@ -99,20 +135,6 @@ def parse_subs_pdf(pdf_bytes: bytes, group: str) -> dict:
         os.unlink(tmp_path)
 
     return result
-
-def get_substitutions(group: str):
-    today = datetime.now()
-    tomorrow = today + timedelta(days=1)
-
-    today_pdf = fetch_subs_pdf(today)
-    today_subs = parse_subs_pdf(today_pdf, group) if today_pdf else {}
-
-    tomorrow_pdf = fetch_subs_pdf(tomorrow)
-    if tomorrow_pdf:
-        tomorrow_subs = parse_subs_pdf(tomorrow_pdf, group)
-        return today_subs, tomorrow_subs, format_date(tomorrow), False
-    else:
-        return today_subs, {}, format_date(tomorrow), True
 
 # ── Day name detection ────────────────────────────────────────────────────────
 
@@ -168,7 +190,7 @@ def get_group_col_wide(table, group: str) -> int:
 
     return -1
 
-# ── Core lesson builder (shared between formats) ──────────────────────────────
+# ── Core lesson builder ───────────────────────────────────────────────────────
 
 def apply_second_row(schedule, current_day, current_para_num, subject, teacher, room):
     existing = schedule[current_day][current_para_num]
@@ -210,10 +232,8 @@ def clean_schedule(schedule):
 
 # ── Main schedule parser ──────────────────────────────────────────────────────
 
-def parse_main_schedule(pdf_path: str, group: str) -> dict:
-    schedule = {}
-
-    with pdfplumber.open(pdf_path) as pdf:
+def parse_main_schedule(pdf_bytes: bytes, group: str) -> dict:
+    with pdfplumber.open(io.BytesIO(pdf_bytes)) as pdf:
         tables = pdf.pages[0].extract_tables(table_settings=PDF_TABLE_SETTINGS)
         if not tables:
             return {}
@@ -416,44 +436,79 @@ def build_day_lessons(day_schedule: dict, subs: dict, parity: str) -> list:
 # ── Main ─────────────────────────────────────────────────────────────────────
 
 def main():
+    os.makedirs("api", exist_ok=True)
+
     now = datetime.now()
     parity = get_day_parity(now)
 
-    today_subs, tomorrow_subs, tomorrow_date_str, tomorrow_missing = get_substitutions(TARGET_GROUP)
-
-    tomorrow_date = datetime.strptime(tomorrow_date_str, "%d.%m.%Y")
-    tomorrow_parity = get_day_parity(tomorrow_date)
-
-    main_sched = parse_main_schedule(MAIN_PDF_PATH, TARGET_GROUP)
+    print("Fetching substitutions...")
+    today_subs_pdf = fetch_subs_pdf(now)
+    tomorrow = now + timedelta(days=1)
+    tomorrow_subs_pdf = fetch_subs_pdf(tomorrow)
+    tomorrow_date_str = format_date(tomorrow)
+    tomorrow_missing = tomorrow_subs_pdf is None
 
     today_name    = day_name(now)
-    tomorrow_name = day_name(now + timedelta(days=1))
+    tomorrow_name = day_name(tomorrow)
+    tomorrow_parity = get_day_parity(tomorrow)
 
-    today_lessons = build_day_lessons(
-        main_sched.get(today_name, {}),
-        today_subs,
-        parity
-    )
-    tomorrow_lessons = build_day_lessons(
-        main_sched.get(tomorrow_name, {}),
-        tomorrow_subs,
-        tomorrow_parity
-    )
+    course_groups_map = {}
 
-    output = {
-        "group":                 TARGET_GROUP,
-        "day_parity":            parity,
-        "tomorrow_parity":       tomorrow_parity,
-        "tomorrow_date":         tomorrow_date_str,
-        "subs_tomorrow_missing": tomorrow_missing,
-        "main_schedule":         main_sched,
-        "today":                 today_name,
-        "today_lessons":         today_lessons,
-        "tomorrow":              tomorrow_name,
-        "tomorrow_lessons":      tomorrow_lessons
-    }
+    # Сканируем все 4 курса
+    for course in [1, 2, 3, 4]:
+        print(f"Processing Course {course}...")
+        pdf_bytes = fetch_main_pdf(course)
+        if not pdf_bytes:
+            print(f"Skipping Course {course}: PDF not found on website.")
+            continue
 
-    print(json.dumps(output, indent=2, ensure_ascii=False))
+        # Вытаскиваем список групп из этого курса
+        with pdfplumber.open(io.BytesIO(pdf_bytes)) as pdf:
+            tables = pdf.pages[0].extract_tables(table_settings=PDF_TABLE_SETTINGS)
+            if not tables:
+                continue
+            groups = get_table_groups(tables[0])
+
+        if not groups:
+            print(f"No groups found for course {course}.")
+            continue
+
+        course_groups_map[str(course)] = groups
+
+        # Генерируем расписание для каждой найденной группы
+        for group in groups:
+            main_sched = parse_main_schedule(pdf_bytes, group)
+            if not main_sched:
+                continue
+
+            today_subs = parse_subs_pdf(today_subs_pdf, group) if today_subs_pdf else {}
+            tomorrow_subs = parse_subs_pdf(tomorrow_subs_pdf, group) if tomorrow_subs_pdf else {}
+
+            today_lessons = build_day_lessons(main_sched.get(today_name, {}), today_subs, parity)
+            tomorrow_lessons = build_day_lessons(main_sched.get(tomorrow_name, {}), tomorrow_subs, tomorrow_parity)
+
+            output = {
+                "group":                 group,
+                "course":                course,
+                "day_parity":            parity,
+                "tomorrow_parity":       tomorrow_parity,
+                "tomorrow_date":         tomorrow_date_str,
+                "subs_tomorrow_missing": tomorrow_missing,
+                "today":                 today_name,
+                "today_lessons":         today_lessons,
+                "tomorrow":              tomorrow_name,
+                "tomorrow_lessons":      tomorrow_lessons
+            }
+
+            # Сохраняем индивидуальный файл группы
+            with open(f"api/{group}.json", "w", encoding="utf-8") as f:
+                json.dump(output, f, indent=2, ensure_ascii=False)
+
+    # Сохраняем индексный файл со структурой Курс -> Группы
+    with open("api/groups.json", "w", encoding="utf-8") as f:
+        json.dump(course_groups_map, f, indent=2, ensure_ascii=False)
+
+    print("Success! All JSONs generated in 'api/' directory.")
 
 if __name__ == "__main__":
     main()
