@@ -9,6 +9,7 @@ import sys
 import json
 import re
 import io
+import shutil
 import requests
 import pdfplumber
 import tempfile
@@ -436,6 +437,8 @@ def build_day_lessons(day_schedule: dict, subs: dict, parity: str) -> list:
 # ── Main ─────────────────────────────────────────────────────────────────────
 
 def main():
+    if os.path.exists("api"):
+        shutil.rmtree("api")
     os.makedirs("api", exist_ok=True)
 
     now = datetime.now()
