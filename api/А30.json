@@ -1,0 +1,62 @@
+{
+  "group": "А30",
+  "course": 3,
+  "day_parity": "even",
+  "tomorrow_parity": "odd",
+  "tomorrow_date": "19.06.2026",
+  "subs_tomorrow_missing": true,
+  "today": "Четвер",
+  "today_lessons": [
+    {
+      "para": 1,
+      "subject": "Фізичне виховання",
+      "teacher": "Опанащук Ю.М.",
+      "room": "318",
+      "cancelled": false,
+      "substituted": false
+    },
+    {
+      "para": 2,
+      "subject": "Системи автоматизованого проєктування",
+      "teacher": "Сліпцов І.Ю.",
+      "room": "318",
+      "cancelled": false,
+      "substituted": false
+    },
+    {
+      "para": 3,
+      "subject": "Обчислювальна та міктропроцесорна техніка в системах контролю керування та захисту",
+      "teacher": "Кузьомко В.І.",
+      "room": "318",
+      "cancelled": false,
+      "substituted": false
+    }
+  ],
+  "tomorrow": "П'ятниця",
+  "tomorrow_lessons": [
+    {
+      "para": 1,
+      "subject": "Основи метрології і засоби технічного контролю",
+      "teacher": "Кузьомко В.І.",
+      "room": "318",
+      "cancelled": false,
+      "substituted": false
+    },
+    {
+      "para": 2,
+      "subject": "Системи автоматизованого проєктування",
+      "teacher": "Сліпцов І.Ю.",
+      "room": "318",
+      "cancelled": false,
+      "substituted": false
+    },
+    {
+      "para": 3,
+      "subject": "Автоматизація технологічних процесів",
+      "teacher": "Приймак С.Л.",
+      "room": "318",
+      "cancelled": false,
+      "substituted": false
+    }
+  ]
+}

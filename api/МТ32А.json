@@ -1,0 +1,62 @@
+{
+  "group": "МТ32А",
+  "course": 3,
+  "day_parity": "even",
+  "tomorrow_parity": "odd",
+  "tomorrow_date": "19.06.2026",
+  "subs_tomorrow_missing": true,
+  "today": "Четвер",
+  "today_lessons": [
+    {
+      "para": 1,
+      "subject": "Основи технології столярно-будівельного виробництва",
+      "teacher": "Дишлева Т.І.",
+      "room": "404",
+      "cancelled": false,
+      "substituted": false
+    },
+    {
+      "para": 2,
+      "subject": "Основи метрології і стандартизації",
+      "teacher": "Шурпан М.М.",
+      "room": "404",
+      "cancelled": false,
+      "substituted": false
+    },
+    {
+      "para": 3,
+      "subject": "Іноземна мова за професійним спрямуванням",
+      "teacher": "Ходжаєва Е.Т.",
+      "room": "404",
+      "cancelled": false,
+      "substituted": false
+    }
+  ],
+  "tomorrow": "П'ятниця",
+  "tomorrow_lessons": [
+    {
+      "para": 2,
+      "subject": "Основи технології меблевого виробництва",
+      "teacher": "Дишлева Т.І.",
+      "room": "404",
+      "cancelled": false,
+      "substituted": false
+    },
+    {
+      "para": 3,
+      "subject": "Основи конструювання виробів з деревини",
+      "teacher": "Савченко Н.В.",
+      "room": "404",
+      "cancelled": false,
+      "substituted": false
+    },
+    {
+      "para": 4,
+      "subject": "Українська мова за професійним спрямуванням",
+      "teacher": "Дишлева Т.І.",
+      "room": "404",
+      "cancelled": false,
+      "substituted": false
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "group": "К47",
+  "course": 4,
+  "day_parity": "even",
+  "tomorrow_parity": "odd",
+  "tomorrow_date": "19.06.2026",
+  "subs_tomorrow_missing": true,
+  "today": "Четвер",
+  "today_lessons": [
+    {
+      "para": 5,
+      "subject": "Економіка і планування виробництва",
+      "teacher": "Зіневич К.С.",
+      "room": "312",
+      "cancelled": false,
+      "substituted": false
+    },
+    {
+      "para": 6,
+      "subject": "Програмування",
+      "teacher": "Кравець І.В.",
+      "room": "312",
+      "cancelled": false,
+      "substituted": false
+    }
+  ],
+  "tomorrow": "П'ятниця",
+  "tomorrow_lessons": [
+    {
+      "para": 4,
+      "subject": "Економіка і планування виробництва",
+      "teacher": "Зіневич К.С.",
+      "room": "312",
+      "cancelled": false,
+      "substituted": false
+    },
+    {
+      "para": 5,
+      "subject": "Інженерна та комп'ютерна графіка",
+      "teacher": "Макарчук О.В.",
+      "room": "312",
+      "cancelled": false,
+      "substituted": false
+    },
+    {
+      "para": 6,
+      "subject": "Програмування",
+      "teacher": "Кравець І.В.",
+      "room": "312",
+      "cancelled": false,
+      "substituted": false
+    }
+  ]
+}
