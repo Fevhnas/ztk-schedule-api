@@ -9,16 +9,23 @@ import sys
 import json
 import re
 import io
+import time
 import shutil
 import requests
 import pdfplumber
 import tempfile
 import urllib.parse
-from datetime import datetime, timedelta
+from datetime import datetime, timedelta, timezone
 
 # ── Config ──────────────────────────────────────────────────────────────────
 MAIN_URL_TEMPLATE = "https://ztk.org.ua/files/{course_encoded}.pdf"
 SUBS_URL_TEMPLATE = "https://ztk.org.ua/files/{date}.pdf"
+
+HEADERS = {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+    "Cache-Control": "no-cache",
+    "Pragma": "no-cache"
+}
 
 DAY_NAMES = ["Понеділок", "Вівторок", "Середа", "Четвер", "П'ятниця", "Субота", "Неділя"]
 
@@ -43,23 +50,33 @@ def day_name(date: datetime) -> str:
 def fetch_main_pdf(course: int) -> bytes | None:
     course_text = f"Розклад занять {course} курс"
     course_encoded = urllib.parse.quote(course_text)
-    url = MAIN_URL_TEMPLATE.format(course_encoded=course_encoded)
-    try:
-        r = requests.get(url, timeout=15)
-        if r.status_code == 200 and b'%PDF' in r.content[:8]:
-            return r.content
-    except requests.RequestException:
-        pass
+    base_url = MAIN_URL_TEMPLATE.format(course_encoded=course_encoded)
+    url = f"{base_url}?t={int(time.time())}"
+    for attempt in range(2):
+        try:
+            r = requests.get(url, headers=HEADERS, timeout=15)
+            if r.status_code == 200 and b'%PDF' in r.content[:8]:
+                return r.content
+            else:
+                print(f"fetch_main_pdf({course}) attempt {attempt+1} status: {r.status_code}")
+        except requests.RequestException as e:
+            print(f"fetch_main_pdf({course}) attempt {attempt+1} exception: {e}")
+        if attempt < 1:
+            time.sleep(1)
     return None
 
 def fetch_subs_pdf(date: datetime) -> bytes | None:
-    url = SUBS_URL_TEMPLATE.format(date=format_date(date))
-    try:
-        r = requests.get(url, timeout=10)
-        if r.status_code == 200 and b'%PDF' in r.content[:8]:
-            return r.content
-    except requests.RequestException:
-        pass
+    base_url = SUBS_URL_TEMPLATE.format(date=format_date(date))
+    url = f"{base_url}?t={int(time.time())}"
+    for attempt in range(2):
+        try:
+            r = requests.get(url, headers=HEADERS, timeout=10)
+            if r.status_code == 200 and b'%PDF' in r.content[:8]:
+                return r.content
+        except requests.RequestException:
+            pass
+        if attempt < 1:
+            time.sleep(1)
     return None
 
 # ── Group Discovery ──────────────────────────────────────────────────────────
@@ -434,6 +451,20 @@ def build_day_lessons(day_schedule: dict, subs: dict, parity: str) -> list:
 
     return sorted(lessons.values(), key=lambda x: x["para"])
 
+def get_kyiv_time() -> datetime:
+    utc_now = datetime.now(timezone.utc)
+    if 4 <= utc_now.month <= 10:
+        offset = 3
+    elif utc_now.month == 3:
+        last_sunday = 31 - (datetime(utc_now.year, 3, 31).weekday() + 1) % 7
+        offset = 3 if utc_now.day >= last_sunday else 2
+    elif utc_now.month == 10:
+        last_sunday = 31 - (datetime(utc_now.year, 10, 31).weekday() + 1) % 7
+        offset = 2 if utc_now.day >= last_sunday else 3
+    else:
+        offset = 2
+    return utc_now.astimezone(timezone(timedelta(hours=offset)))
+
 # ── Main ─────────────────────────────────────────────────────────────────────
 
 def main():
@@ -441,7 +472,7 @@ def main():
         shutil.rmtree("api")
     os.makedirs("api", exist_ok=True)
 
-    now = datetime.now()
+    now = get_kyiv_time()
     parity = get_day_parity(now)
 
     print("Fetching substitutions...")
