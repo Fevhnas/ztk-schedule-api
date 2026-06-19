@@ -1,39 +1,12 @@
 {
   "group": "П34",
   "course": 3,
-  "day_parity": "even",
-  "tomorrow_parity": "odd",
-  "tomorrow_date": "19.06.2026",
+  "day_parity": "odd",
+  "tomorrow_parity": "even",
+  "tomorrow_date": "20.06.2026",
   "subs_tomorrow_missing": true,
-  "today": "Четвер",
+  "today": "П'ятниця",
   "today_lessons": [
-    {
-      "para": 1,
-      "subject": "WEB-дизайн",
-      "teacher": "Цимбалюк М.М.",
-      "room": "403",
-      "cancelled": false,
-      "substituted": false
-    },
-    {
-      "para": 2,
-      "subject": "Фізичне виховання",
-      "teacher": "Опанащук Ю.М.",
-      "room": "403",
-      "cancelled": false,
-      "substituted": false
-    },
-    {
-      "para": 3,
-      "subject": "Основи програмної інженерії",
-      "teacher": "Ширман М.Ю.",
-      "room": "403",
-      "cancelled": false,
-      "substituted": false
-    }
-  ],
-  "tomorrow": "П'ятниця",
-  "tomorrow_lessons": [
     {
       "para": 2,
       "subject": "Українська мова за професійним спрямуванням",
@@ -50,5 +23,7 @@
       "cancelled": false,
       "substituted": false
     }
-  ]
+  ],
+  "tomorrow": "Субота",
+  "tomorrow_lessons": []
 }

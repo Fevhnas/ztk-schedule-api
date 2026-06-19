@@ -1,47 +1,12 @@
 {
   "group": "А20",
   "course": 2,
-  "day_parity": "even",
-  "tomorrow_parity": "odd",
-  "tomorrow_date": "19.06.2026",
+  "day_parity": "odd",
+  "tomorrow_parity": "even",
+  "tomorrow_date": "20.06.2026",
   "subs_tomorrow_missing": true,
-  "today": "Четвер",
+  "today": "П'ятниця",
   "today_lessons": [
-    {
-      "para": 1,
-      "subject": "Історія України",
-      "teacher": "Міщенко В.А.",
-      "room": "410",
-      "cancelled": false,
-      "substituted": false
-    },
-    {
-      "para": 2,
-      "subject": "Електротехніка та електричні вимірювання",
-      "teacher": "Пегарькова Г.А.",
-      "room": "410",
-      "cancelled": false,
-      "substituted": false
-    },
-    {
-      "para": 3,
-      "subject": "Основи охорони праці",
-      "teacher": "Дишлева Т.І.",
-      "room": "410",
-      "cancelled": false,
-      "substituted": false
-    },
-    {
-      "para": 4,
-      "subject": "Автоматизований електропривод",
-      "teacher": "Кузьомко В.І.",
-      "room": "410",
-      "cancelled": false,
-      "substituted": false
-    }
-  ],
-  "tomorrow": "П'ятниця",
-  "tomorrow_lessons": [
     {
       "para": 1,
       "subject": "Фізична культура",
@@ -66,5 +31,7 @@
       "cancelled": false,
       "substituted": false
     }
-  ]
+  ],
+  "tomorrow": "Субота",
+  "tomorrow_lessons": []
 }

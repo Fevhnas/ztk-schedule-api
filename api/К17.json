@@ -1,47 +1,12 @@
 {
   "group": "К17",
   "course": 1,
-  "day_parity": "even",
-  "tomorrow_parity": "odd",
-  "tomorrow_date": "19.06.2026",
+  "day_parity": "odd",
+  "tomorrow_parity": "even",
+  "tomorrow_date": "20.06.2026",
   "subs_tomorrow_missing": true,
-  "today": "Четвер",
+  "today": "П'ятниця",
   "today_lessons": [
-    {
-      "para": 1,
-      "subject": "Основи філософських знань",
-      "teacher": "Башманівська Я.В.",
-      "room": "312",
-      "cancelled": false,
-      "substituted": false
-    },
-    {
-      "para": 2,
-      "subject": "Українська мова",
-      "teacher": "Вольська Ю.В.",
-      "room": "312",
-      "cancelled": false,
-      "substituted": false
-    },
-    {
-      "para": 3,
-      "subject": "Фізична культура",
-      "teacher": "Опанащук Ю.М.",
-      "room": "312",
-      "cancelled": false,
-      "substituted": false
-    },
-    {
-      "para": 4,
-      "subject": "Фізика і астрономія",
-      "teacher": "Гордійчук О.М.",
-      "room": "312",
-      "cancelled": false,
-      "substituted": false
-    }
-  ],
-  "tomorrow": "П'ятниця",
-  "tomorrow_lessons": [
     {
       "para": 1,
       "subject": "Захист України",
@@ -74,5 +39,7 @@
       "cancelled": false,
       "substituted": false
     }
-  ]
+  ],
+  "tomorrow": "Субота",
+  "tomorrow_lessons": []
 }

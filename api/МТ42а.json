@@ -1,39 +1,12 @@
 {
   "group": "МТ42а",
   "course": 4,
-  "day_parity": "even",
-  "tomorrow_parity": "odd",
-  "tomorrow_date": "19.06.2026",
+  "day_parity": "odd",
+  "tomorrow_parity": "even",
+  "tomorrow_date": "20.06.2026",
   "subs_tomorrow_missing": true,
-  "today": "Четвер",
+  "today": "П'ятниця",
   "today_lessons": [
-    {
-      "para": 4,
-      "subject": "Комп'ютерна графіка",
-      "teacher": "Лісіцька Н.В.",
-      "room": null,
-      "cancelled": false,
-      "substituted": false
-    },
-    {
-      "para": 5,
-      "subject": "Охорона праці в галузі",
-      "teacher": "Дишлева Т.І.",
-      "room": null,
-      "cancelled": false,
-      "substituted": false
-    },
-    {
-      "para": 6,
-      "subject": "Технологія м'яких",
-      "teacher": "Шурпан М.М.",
-      "room": "106",
-      "cancelled": false,
-      "substituted": false
-    }
-  ],
-  "tomorrow": "П'ятниця",
-  "tomorrow_lessons": [
     {
       "para": 4,
       "subject": "меблевих виробів",
@@ -58,5 +31,7 @@
       "cancelled": false,
       "substituted": false
     }
-  ]
+  ],
+  "tomorrow": "Субота",
+  "tomorrow_lessons": []
 }
