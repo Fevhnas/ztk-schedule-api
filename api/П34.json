@@ -1,0 +1,12 @@
+{
+  "group": "П34",
+  "course": 3,
+  "day_parity": "even",
+  "tomorrow_parity": "odd",
+  "tomorrow_date": "21.06.2026",
+  "subs_tomorrow_missing": true,
+  "today": "Субота",
+  "today_lessons": [],
+  "tomorrow": "Неділя",
+  "tomorrow_lessons": []
+}
