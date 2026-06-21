@@ -1,12 +1,37 @@
 {
   "group": "Ел31а",
   "course": 3,
-  "day_parity": "even",
-  "tomorrow_parity": "odd",
-  "tomorrow_date": "21.06.2026",
+  "day_parity": "odd",
+  "tomorrow_parity": "even",
+  "tomorrow_date": "22.06.2026",
   "subs_tomorrow_missing": true,
-  "today": "Субота",
+  "today": "Неділя",
   "today_lessons": [],
-  "tomorrow": "Неділя",
-  "tomorrow_lessons": []
+  "tomorrow": "Понеділок",
+  "tomorrow_lessons": [
+    {
+      "para": 4,
+      "subject": "Основи електропривода",
+      "teacher": "Білоконь С.Ф.",
+      "room": "402",
+      "cancelled": false,
+      "substituted": false
+    },
+    {
+      "para": 5,
+      "subject": "Монтаж, експлуатація і ремонт електроустановок",
+      "teacher": "Романчук Н.І.",
+      "room": "107",
+      "cancelled": false,
+      "substituted": false
+    },
+    {
+      "para": 6,
+      "subject": "Електричні вимірювання",
+      "teacher": "Приймак С.Л.",
+      "room": "107",
+      "cancelled": false,
+      "substituted": false
+    }
+  ]
 }
