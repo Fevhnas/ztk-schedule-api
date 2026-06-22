@@ -1,14 +1,12 @@
 {
   "group": "Е34",
   "course": 3,
-  "day_parity": "odd",
-  "tomorrow_parity": "even",
-  "tomorrow_date": "22.06.2026",
+  "day_parity": "even",
+  "tomorrow_parity": "odd",
+  "tomorrow_date": "23.06.2026",
   "subs_tomorrow_missing": true,
-  "today": "Неділя",
-  "today_lessons": [],
-  "tomorrow": "Понеділок",
-  "tomorrow_lessons": [
+  "today": "Понеділок",
+  "today_lessons": [
     {
       "para": 4,
       "subject": "Планування та організація діяльності підприємства",
@@ -29,6 +27,33 @@
       "para": 6,
       "subject": "Інформаційні системи і технології на підприємствах",
       "teacher": "Рубанець Д.О.",
+      "room": "214",
+      "cancelled": false,
+      "substituted": false
+    }
+  ],
+  "tomorrow": "Вівторок",
+  "tomorrow_lessons": [
+    {
+      "para": 3,
+      "subject": "Планування та організація діяльності підприємства",
+      "teacher": "Зіневич К.С.",
+      "room": "214",
+      "cancelled": false,
+      "substituted": false
+    },
+    {
+      "para": 4,
+      "subject": "Українська мова за професійним спрямуванням",
+      "teacher": "Римар Т.В.",
+      "room": "214",
+      "cancelled": false,
+      "substituted": false
+    },
+    {
+      "para": 5,
+      "subject": "Іноземна мова за професійним спрямуванням",
+      "teacher": "Ходжаєва Е.Т.",
       "room": "214",
       "cancelled": false,
       "substituted": false

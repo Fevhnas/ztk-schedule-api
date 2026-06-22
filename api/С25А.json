@@ -1,14 +1,12 @@
 {
   "group": "С25А",
   "course": 2,
-  "day_parity": "odd",
-  "tomorrow_parity": "even",
-  "tomorrow_date": "22.06.2026",
+  "day_parity": "even",
+  "tomorrow_parity": "odd",
+  "tomorrow_date": "23.06.2026",
   "subs_tomorrow_missing": true,
-  "today": "Неділя",
-  "today_lessons": [],
-  "tomorrow": "Понеділок",
-  "tomorrow_lessons": [
+  "today": "Понеділок",
+  "today_lessons": [
     {
       "para": 1,
       "subject": "Основи консультування",
@@ -29,6 +27,25 @@
       "para": 3,
       "subject": "Трудове проаво",
       "teacher": "Башманівська Я.В.",
+      "room": "411",
+      "cancelled": false,
+      "substituted": false
+    }
+  ],
+  "tomorrow": "Вівторок",
+  "tomorrow_lessons": [
+    {
+      "para": 1,
+      "subject": "Валеологія",
+      "teacher": "Дитинченко І.М.",
+      "room": "411",
+      "cancelled": false,
+      "substituted": false
+    },
+    {
+      "para": 2,
+      "subject": "Загальна психологія",
+      "teacher": "Остапчук В.В.",
       "room": "411",
       "cancelled": false,
       "substituted": false

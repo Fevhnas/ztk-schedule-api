@@ -1,14 +1,12 @@
 {
   "group": "Ел21",
   "course": 2,
-  "day_parity": "odd",
-  "tomorrow_parity": "even",
-  "tomorrow_date": "22.06.2026",
+  "day_parity": "even",
+  "tomorrow_parity": "odd",
+  "tomorrow_date": "23.06.2026",
   "subs_tomorrow_missing": true,
-  "today": "Неділя",
-  "today_lessons": [],
-  "tomorrow": "Понеділок",
-  "tomorrow_lessons": [
+  "today": "Понеділок",
+  "today_lessons": [
     {
       "para": 1,
       "subject": "Історія України",
@@ -37,6 +35,33 @@
       "para": 4,
       "subject": "Теоретичні основи електротехніки",
       "teacher": "Пегарькова Г.А.",
+      "room": "311",
+      "cancelled": false,
+      "substituted": false
+    }
+  ],
+  "tomorrow": "Вівторок",
+  "tomorrow_lessons": [
+    {
+      "para": 1,
+      "subject": "Комп'ютерна техніка та програмування",
+      "teacher": "Поплавський В.С.",
+      "room": "311",
+      "cancelled": false,
+      "substituted": false
+    },
+    {
+      "para": 2,
+      "subject": "Комп'ютерна графіка",
+      "teacher": "Романчук Н.І.",
+      "room": "311",
+      "cancelled": false,
+      "substituted": false
+    },
+    {
+      "para": 3,
+      "subject": "Фізична культура",
+      "teacher": "Опанащук Ю.М.",
       "room": "311",
       "cancelled": false,
       "substituted": false
