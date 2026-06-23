@@ -1,31 +1,12 @@
 {
   "group": "К29А",
   "course": 2,
-  "day_parity": "even",
-  "tomorrow_parity": "odd",
-  "tomorrow_date": "23.06.2026",
+  "day_parity": "odd",
+  "tomorrow_parity": "even",
+  "tomorrow_date": "24.06.2026",
   "subs_tomorrow_missing": true,
-  "today": "Понеділок",
+  "today": "Вівторок",
   "today_lessons": [
-    {
-      "para": 3,
-      "subject": "Архітектура комп'ютера",
-      "teacher": "Поплавський В.С.",
-      "room": "417",
-      "cancelled": false,
-      "substituted": false
-    },
-    {
-      "para": 4,
-      "subject": "Комп'ютерна електроніка",
-      "teacher": "Максименко М.О.",
-      "room": "417",
-      "cancelled": false,
-      "substituted": false
-    }
-  ],
-  "tomorrow": "Вівторок",
-  "tomorrow_lessons": [
     {
       "para": 1,
       "subject": "Вища математика",
@@ -38,6 +19,25 @@
       "para": 2,
       "subject": "Алгоритми і методи обчислень",
       "teacher": "Дашкевич В.В.",
+      "room": "417",
+      "cancelled": false,
+      "substituted": false
+    }
+  ],
+  "tomorrow": "Середа",
+  "tomorrow_lessons": [
+    {
+      "para": 2,
+      "subject": "Вища математика",
+      "teacher": "Подлєсна К.А.",
+      "room": "417",
+      "cancelled": false,
+      "substituted": false
+    },
+    {
+      "para": 3,
+      "subject": "Архітектура комп'ютера",
+      "teacher": "Поплавський В.С.",
       "room": "417",
       "cancelled": false,
       "substituted": false
