@@ -1,31 +1,12 @@
 {
   "group": "С25А",
   "course": 2,
-  "day_parity": "odd",
-  "tomorrow_parity": "even",
-  "tomorrow_date": "24.06.2026",
+  "day_parity": "even",
+  "tomorrow_parity": "odd",
+  "tomorrow_date": "25.06.2026",
   "subs_tomorrow_missing": true,
-  "today": "Вівторок",
+  "today": "Середа",
   "today_lessons": [
-    {
-      "para": 1,
-      "subject": "Валеологія",
-      "teacher": "Дитинченко І.М.",
-      "room": "411",
-      "cancelled": false,
-      "substituted": false
-    },
-    {
-      "para": 2,
-      "subject": "Загальна психологія",
-      "teacher": "Остапчук В.В.",
-      "room": "411",
-      "cancelled": false,
-      "substituted": false
-    }
-  ],
-  "tomorrow": "Середа",
-  "tomorrow_lessons": [
     {
       "para": 1,
       "subject": "Валеологія",
@@ -37,6 +18,25 @@
     {
       "para": 3,
       "subject": "Історія соціальної роботи",
+      "teacher": "Остапчук В.В.",
+      "room": "411",
+      "cancelled": false,
+      "substituted": false
+    }
+  ],
+  "tomorrow": "Четвер",
+  "tomorrow_lessons": [
+    {
+      "para": 3,
+      "subject": "Соціальна робота в об'єднаних територіальних громадах",
+      "teacher": "Іваненко Л.Л.",
+      "room": "411",
+      "cancelled": false,
+      "substituted": false
+    },
+    {
+      "para": 4,
+      "subject": "Загальна психологія",
       "teacher": "Остапчук В.В.",
       "room": "411",
       "cancelled": false,

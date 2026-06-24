@@ -1,39 +1,12 @@
 {
   "group": "Ел11",
   "course": 1,
-  "day_parity": "odd",
-  "tomorrow_parity": "even",
-  "tomorrow_date": "24.06.2026",
+  "day_parity": "even",
+  "tomorrow_parity": "odd",
+  "tomorrow_date": "25.06.2026",
   "subs_tomorrow_missing": true,
-  "today": "Вівторок",
+  "today": "Середа",
   "today_lessons": [
-    {
-      "para": 1,
-      "subject": "Інформатика",
-      "teacher": "Пашкевич О.М.",
-      "room": "111",
-      "cancelled": false,
-      "substituted": false
-    },
-    {
-      "para": 2,
-      "subject": "Всесвітня історія",
-      "teacher": "Іваненко Л.Л.",
-      "room": "111",
-      "cancelled": false,
-      "substituted": false
-    },
-    {
-      "para": 3,
-      "subject": "Основи економічної теорії",
-      "teacher": "Капітула Л.Л.",
-      "room": "111",
-      "cancelled": false,
-      "substituted": false
-    }
-  ],
-  "tomorrow": "Середа",
-  "tomorrow_lessons": [
     {
       "para": 1,
       "subject": "Захист України",
@@ -54,6 +27,41 @@
       "para": 3,
       "subject": "Основи філософських знань",
       "teacher": "Башманівська Я.В.",
+      "room": "111",
+      "cancelled": false,
+      "substituted": false
+    }
+  ],
+  "tomorrow": "Четвер",
+  "tomorrow_lessons": [
+    {
+      "para": 1,
+      "subject": "Українська література",
+      "teacher": "Римар Т.В.",
+      "room": "111",
+      "cancelled": false,
+      "substituted": false
+    },
+    {
+      "para": 2,
+      "subject": "Фізична культура",
+      "teacher": "Ясінська К.О.",
+      "room": "111",
+      "cancelled": false,
+      "substituted": false
+    },
+    {
+      "para": 3,
+      "subject": "Фізика і астрономія",
+      "teacher": "Кочин І.С.",
+      "room": "111",
+      "cancelled": false,
+      "substituted": false
+    },
+    {
+      "para": 4,
+      "subject": "Інформатика",
+      "teacher": "Пашкевич О.М.",
       "room": "111",
       "cancelled": false,
       "substituted": false

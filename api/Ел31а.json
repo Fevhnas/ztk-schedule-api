@@ -1,39 +1,12 @@
 {
   "group": "Ел31а",
   "course": 3,
-  "day_parity": "odd",
-  "tomorrow_parity": "even",
-  "tomorrow_date": "24.06.2026",
+  "day_parity": "even",
+  "tomorrow_parity": "odd",
+  "tomorrow_date": "25.06.2026",
   "subs_tomorrow_missing": true,
-  "today": "Вівторок",
+  "today": "Середа",
   "today_lessons": [
-    {
-      "para": 3,
-      "subject": "Обчислювальна та міктропроцесорна техніка в системах контролю керування та захисту",
-      "teacher": "Кузьомко В.І.",
-      "room": "402",
-      "cancelled": false,
-      "substituted": false
-    },
-    {
-      "para": 4,
-      "subject": "Монтаж, експлуатація і ремонт електроустановок",
-      "teacher": "Романчук Н.І.",
-      "room": "107",
-      "cancelled": false,
-      "substituted": false
-    },
-    {
-      "para": 5,
-      "subject": "Основи промислової електроніки мікропроцесорної техніки та автоматики",
-      "teacher": "Кузьомко В.І.",
-      "room": "107",
-      "cancelled": false,
-      "substituted": false
-    }
-  ],
-  "tomorrow": "Середа",
-  "tomorrow_lessons": [
     {
       "para": 4,
       "subject": "Електропостачання підприємств і цивільних споруд",
@@ -54,6 +27,33 @@
       "para": 6,
       "subject": "Електричні вимірювання",
       "teacher": "Приймак С.Л.",
+      "room": "107",
+      "cancelled": false,
+      "substituted": false
+    }
+  ],
+  "tomorrow": "Четвер",
+  "tomorrow_lessons": [
+    {
+      "para": 2,
+      "subject": "Іноземна мова за професійним спрямуванням",
+      "teacher": "Ходжаєва Е.Т.",
+      "room": "402",
+      "cancelled": false,
+      "substituted": false
+    },
+    {
+      "para": 3,
+      "subject": "Фізичне виховання",
+      "teacher": "Лисюк Д.О.",
+      "room": "402",
+      "cancelled": false,
+      "substituted": false
+    },
+    {
+      "para": 4,
+      "subject": "Електроустаткування підприємств і цивільних споруд",
+      "teacher": "Сліпцов І.Ю.",
       "room": "107",
       "cancelled": false,
       "substituted": false
