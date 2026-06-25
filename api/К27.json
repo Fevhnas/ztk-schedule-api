@@ -1,47 +1,12 @@
 {
   "group": "К27",
   "course": 2,
-  "day_parity": "even",
-  "tomorrow_parity": "odd",
-  "tomorrow_date": "25.06.2026",
+  "day_parity": "odd",
+  "tomorrow_parity": "even",
+  "tomorrow_date": "26.06.2026",
   "subs_tomorrow_missing": true,
-  "today": "Середа",
+  "today": "Четвер",
   "today_lessons": [
-    {
-      "para": 1,
-      "subject": "Електрорадіовимірювання",
-      "teacher": "Максименко М.О.",
-      "room": "211",
-      "cancelled": false,
-      "substituted": false
-    },
-    {
-      "para": 2,
-      "subject": "Архітектура комп'ютера",
-      "teacher": "Поплавський В.С.",
-      "room": "211",
-      "cancelled": false,
-      "substituted": false
-    },
-    {
-      "para": 3,
-      "subject": "Іноземна мова",
-      "teacher": "Карплюк Т.Ю.",
-      "room": "211",
-      "cancelled": false,
-      "substituted": false
-    },
-    {
-      "para": 4,
-      "subject": "Архітектура комп'ютера",
-      "teacher": "Поплавський В.С.",
-      "room": "211",
-      "cancelled": false,
-      "substituted": false
-    }
-  ],
-  "tomorrow": "Четвер",
-  "tomorrow_lessons": [
     {
       "para": 1,
       "subject": "Алгоритми і методи обчислень",
@@ -69,6 +34,33 @@
     {
       "para": 4,
       "subject": "Електрорадіовимірювання",
+      "teacher": "Максименко М.О.",
+      "room": "211",
+      "cancelled": false,
+      "substituted": false
+    }
+  ],
+  "tomorrow": "П'ятниця",
+  "tomorrow_lessons": [
+    {
+      "para": 1,
+      "subject": "Основи підприємницької діяльності",
+      "teacher": "Камінська М.Б.",
+      "room": "211",
+      "cancelled": false,
+      "substituted": false
+    },
+    {
+      "para": 2,
+      "subject": "Архітектура комп'ютера",
+      "teacher": "Поплавський В.С.",
+      "room": "211",
+      "cancelled": false,
+      "substituted": false
+    },
+    {
+      "para": 3,
+      "subject": "Комп'ютерна електроніка",
       "teacher": "Максименко М.О.",
       "room": "211",
       "cancelled": false,

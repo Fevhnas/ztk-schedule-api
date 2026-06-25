@@ -1,31 +1,12 @@
 {
   "group": "Ел41",
   "course": 4,
-  "day_parity": "even",
-  "tomorrow_parity": "odd",
-  "tomorrow_date": "25.06.2026",
+  "day_parity": "odd",
+  "tomorrow_parity": "even",
+  "tomorrow_date": "26.06.2026",
   "subs_tomorrow_missing": true,
-  "today": "Середа",
+  "today": "Четвер",
   "today_lessons": [
-    {
-      "para": 4,
-      "subject": "Економіка та організація електротехнічної служби підприємства",
-      "teacher": "Козак Н.М.",
-      "room": "410",
-      "cancelled": false,
-      "substituted": false
-    },
-    {
-      "para": 5,
-      "subject": "Налагодження електроустаткування",
-      "teacher": "Романчук Н.І.",
-      "room": "410",
-      "cancelled": false,
-      "substituted": false
-    }
-  ],
-  "tomorrow": "Четвер",
-  "tomorrow_lessons": [
     {
       "para": 4,
       "subject": "Основи менеджменту",
@@ -38,6 +19,25 @@
       "para": 5,
       "subject": "Енергозбереження",
       "teacher": "Кузьомко В.І.",
+      "room": "410",
+      "cancelled": false,
+      "substituted": false
+    }
+  ],
+  "tomorrow": "П'ятниця",
+  "tomorrow_lessons": [
+    {
+      "para": 4,
+      "subject": "Енергозбереження",
+      "teacher": "Кузьомко В.І.",
+      "room": "410",
+      "cancelled": false,
+      "substituted": false
+    },
+    {
+      "para": 5,
+      "subject": "Економіка та організація електротехнічної служби підприємства",
+      "teacher": "Козак Н.М.",
       "room": "410",
       "cancelled": false,
       "substituted": false

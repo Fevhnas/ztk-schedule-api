@@ -1,39 +1,12 @@
 {
   "group": "МТ42а",
   "course": 4,
-  "day_parity": "even",
-  "tomorrow_parity": "odd",
-  "tomorrow_date": "25.06.2026",
+  "day_parity": "odd",
+  "tomorrow_parity": "even",
+  "tomorrow_date": "26.06.2026",
   "subs_tomorrow_missing": true,
-  "today": "Середа",
+  "today": "Четвер",
   "today_lessons": [
-    {
-      "para": 4,
-      "subject": "Виробництво деревних композиційних матеріалів",
-      "teacher": "Шурпан М.М.",
-      "room": null,
-      "cancelled": false,
-      "substituted": false
-    },
-    {
-      "para": 5,
-      "subject": "Комп'ютерна графіка",
-      "teacher": "Лісіцька Н.В.",
-      "room": null,
-      "cancelled": false,
-      "substituted": false
-    },
-    {
-      "para": 6,
-      "subject": "Охорона праці в галузі",
-      "teacher": "Дишлева Т.І.",
-      "room": null,
-      "cancelled": false,
-      "substituted": false
-    }
-  ],
-  "tomorrow": "Четвер",
-  "tomorrow_lessons": [
     {
       "para": 4,
       "subject": "Комп'ютерна графіка",
@@ -54,6 +27,33 @@
       "para": 6,
       "subject": "меблевих виробів",
       "teacher": null,
+      "room": "106",
+      "cancelled": false,
+      "substituted": false
+    }
+  ],
+  "tomorrow": "П'ятниця",
+  "tomorrow_lessons": [
+    {
+      "para": 4,
+      "subject": "Технологія м'яких",
+      "teacher": null,
+      "room": null,
+      "cancelled": false,
+      "substituted": false
+    },
+    {
+      "para": 5,
+      "subject": "Опорядження деревини і деревних матеріалів",
+      "teacher": "Шурпан М.М.",
+      "room": null,
+      "cancelled": false,
+      "substituted": false
+    },
+    {
+      "para": 6,
+      "subject": "Виробництво спеціальних виробів з деревини",
+      "teacher": "Шурпан М.М.",
       "room": "106",
       "cancelled": false,
       "substituted": false
