@@ -1,39 +1,12 @@
 {
   "group": "МТ42",
   "course": 4,
-  "day_parity": "odd",
-  "tomorrow_parity": "even",
-  "tomorrow_date": "26.06.2026",
+  "day_parity": "even",
+  "tomorrow_parity": "odd",
+  "tomorrow_date": "27.06.2026",
   "subs_tomorrow_missing": true,
-  "today": "Четвер",
+  "today": "П'ятниця",
   "today_lessons": [
-    {
-      "para": 4,
-      "subject": "Комп'ютерна графіка",
-      "teacher": "Лісіцька Н.В.",
-      "room": "106",
-      "cancelled": false,
-      "substituted": false
-    },
-    {
-      "para": 5,
-      "subject": "Охорона праці в галузі",
-      "teacher": "Дишлева Т.І.",
-      "room": "106",
-      "cancelled": false,
-      "substituted": false
-    },
-    {
-      "para": 6,
-      "subject": "Основи менеджменту",
-      "teacher": "Зіневич К.С.",
-      "room": "106",
-      "cancelled": false,
-      "substituted": false
-    }
-  ],
-  "tomorrow": "П'ятниця",
-  "tomorrow_lessons": [
     {
       "para": 4,
       "subject": "Економіка підприємства",
@@ -58,5 +31,7 @@
       "cancelled": false,
       "substituted": false
     }
-  ]
+  ],
+  "tomorrow": "Субота",
+  "tomorrow_lessons": []
 }
