@@ -1,37 +1,12 @@
 {
   "group": "К47",
   "course": 4,
-  "day_parity": "even",
-  "tomorrow_parity": "odd",
-  "tomorrow_date": "27.06.2026",
+  "day_parity": "odd",
+  "tomorrow_parity": "even",
+  "tomorrow_date": "28.06.2026",
   "subs_tomorrow_missing": true,
-  "today": "П'ятниця",
-  "today_lessons": [
-    {
-      "para": 4,
-      "subject": "Програмне забезпечення",
-      "teacher": "Ширман М.Ю.",
-      "room": "312",
-      "cancelled": false,
-      "substituted": false
-    },
-    {
-      "para": 5,
-      "subject": "Інженерна та комп'ютерна графіка",
-      "teacher": "Макарчук О.В.",
-      "room": "312",
-      "cancelled": false,
-      "substituted": false
-    },
-    {
-      "para": 6,
-      "subject": "Програмування",
-      "teacher": "Кравець І.В.",
-      "room": "312",
-      "cancelled": false,
-      "substituted": false
-    }
-  ],
-  "tomorrow": "Субота",
+  "today": "Субота",
+  "today_lessons": [],
+  "tomorrow": "Неділя",
   "tomorrow_lessons": []
 }
