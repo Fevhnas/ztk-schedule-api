@@ -1,12 +1,29 @@
 {
   "group": "МТ32А",
   "course": 3,
-  "day_parity": "odd",
-  "tomorrow_parity": "even",
-  "tomorrow_date": "28.06.2026",
+  "day_parity": "even",
+  "tomorrow_parity": "odd",
+  "tomorrow_date": "29.06.2026",
   "subs_tomorrow_missing": true,
-  "today": "Субота",
+  "today": "Неділя",
   "today_lessons": [],
-  "tomorrow": "Неділя",
-  "tomorrow_lessons": []
+  "tomorrow": "Понеділок",
+  "tomorrow_lessons": [
+    {
+      "para": 1,
+      "subject": "Основи технології столярно-будівельного виробництва",
+      "teacher": "Дишлева Т.І.",
+      "room": "404",
+      "cancelled": false,
+      "substituted": false
+    },
+    {
+      "para": 2,
+      "subject": "Фізичне виховання",
+      "teacher": "Ярмоленко В.С.",
+      "room": "404",
+      "cancelled": false,
+      "substituted": false
+    }
+  ]
 }

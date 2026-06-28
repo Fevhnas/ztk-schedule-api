@@ -1,12 +1,37 @@
 {
   "group": "А40",
   "course": 4,
-  "day_parity": "odd",
-  "tomorrow_parity": "even",
-  "tomorrow_date": "28.06.2026",
+  "day_parity": "even",
+  "tomorrow_parity": "odd",
+  "tomorrow_date": "29.06.2026",
   "subs_tomorrow_missing": true,
-  "today": "Субота",
+  "today": "Неділя",
   "today_lessons": [],
-  "tomorrow": "Неділя",
-  "tomorrow_lessons": []
+  "tomorrow": "Понеділок",
+  "tomorrow_lessons": [
+    {
+      "para": 4,
+      "subject": "Монтаж та налодження ТЗАС",
+      "teacher": "Примак С.Л.",
+      "room": "416",
+      "cancelled": false,
+      "substituted": false
+    },
+    {
+      "para": 5,
+      "subject": "Експлуатація та ремонт ТЗАС",
+      "teacher": "Примак С.Л.",
+      "room": "416",
+      "cancelled": false,
+      "substituted": false
+    },
+    {
+      "para": 6,
+      "subject": "Економіка, організація та планування виробництва",
+      "teacher": "Козак Н.М.",
+      "room": "416",
+      "cancelled": false,
+      "substituted": false
+    }
+  ]
 }
