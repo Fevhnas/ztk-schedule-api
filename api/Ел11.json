@@ -1,14 +1,12 @@
 {
   "group": "Ел11",
   "course": 1,
-  "day_parity": "even",
-  "tomorrow_parity": "odd",
-  "tomorrow_date": "29.06.2026",
+  "day_parity": "odd",
+  "tomorrow_parity": "even",
+  "tomorrow_date": "30.06.2026",
   "subs_tomorrow_missing": true,
-  "today": "Неділя",
-  "today_lessons": [],
-  "tomorrow": "Понеділок",
-  "tomorrow_lessons": [
+  "today": "Понеділок",
+  "today_lessons": [
     {
       "para": 1,
       "subject": "Іноземна мова",
@@ -37,6 +35,33 @@
       "para": 4,
       "subject": "Історія України",
       "teacher": "Башманівська Я.В.",
+      "room": "111",
+      "cancelled": false,
+      "substituted": false
+    }
+  ],
+  "tomorrow": "Вівторок",
+  "tomorrow_lessons": [
+    {
+      "para": 1,
+      "subject": "Фізика і астрономія",
+      "teacher": "Кочин І.С.",
+      "room": "111",
+      "cancelled": false,
+      "substituted": false
+    },
+    {
+      "para": 2,
+      "subject": "Всесвітня історія",
+      "teacher": "Іваненко Л.Л.",
+      "room": "111",
+      "cancelled": false,
+      "substituted": false
+    },
+    {
+      "para": 3,
+      "subject": "Основи економічної теорії",
+      "teacher": "Капітула Л.Л.",
       "room": "111",
       "cancelled": false,
       "substituted": false

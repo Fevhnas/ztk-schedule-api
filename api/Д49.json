@@ -1,14 +1,12 @@
 {
   "group": "Д49",
   "course": 4,
-  "day_parity": "even",
-  "tomorrow_parity": "odd",
-  "tomorrow_date": "29.06.2026",
+  "day_parity": "odd",
+  "tomorrow_parity": "even",
+  "tomorrow_date": "30.06.2026",
   "subs_tomorrow_missing": true,
-  "today": "Неділя",
-  "today_lessons": [],
-  "tomorrow": "Понеділок",
-  "tomorrow_lessons": [
+  "today": "Понеділок",
+  "today_lessons": [
     {
       "para": 3,
       "subject": "Проєктування візуальних комунікацій",
@@ -21,6 +19,25 @@
       "para": 4,
       "subject": "Проєктування візуальних комунікацій",
       "teacher": "Єлісєєва С.С.",
+      "room": "402",
+      "cancelled": false,
+      "substituted": false
+    }
+  ],
+  "tomorrow": "Вівторок",
+  "tomorrow_lessons": [
+    {
+      "para": 3,
+      "subject": "Живопис",
+      "teacher": "Кулик В.Г.",
+      "room": "402",
+      "cancelled": false,
+      "substituted": false
+    },
+    {
+      "para": 4,
+      "subject": "Живопис",
+      "teacher": "Кулик В.Г.",
       "room": "402",
       "cancelled": false,
       "substituted": false

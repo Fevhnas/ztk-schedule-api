@@ -1,14 +1,12 @@
 {
   "group": "ФК26А",
   "course": 2,
-  "day_parity": "even",
-  "tomorrow_parity": "odd",
-  "tomorrow_date": "29.06.2026",
+  "day_parity": "odd",
+  "tomorrow_parity": "even",
+  "tomorrow_date": "30.06.2026",
   "subs_tomorrow_missing": true,
-  "today": "Неділя",
-  "today_lessons": [],
-  "tomorrow": "Понеділок",
-  "tomorrow_lessons": [
+  "today": "Понеділок",
+  "today_lessons": [
     {
       "para": 3,
       "subject": "Олімпійський професійний спорт",
@@ -20,6 +18,33 @@
     {
       "para": 4,
       "subject": "Іноваційні засоби фізичного виховання",
+      "teacher": "Опанащук Ю.М.",
+      "room": "305",
+      "cancelled": false,
+      "substituted": false
+    }
+  ],
+  "tomorrow": "Вівторок",
+  "tomorrow_lessons": [
+    {
+      "para": 1,
+      "subject": "Психологія спорту та фізичної куль тури",
+      "teacher": "Зелінська О.А.",
+      "room": "305",
+      "cancelled": false,
+      "substituted": false
+    },
+    {
+      "para": 2,
+      "subject": "Фізіологія людини",
+      "teacher": "Ставничий А.М.",
+      "room": "305",
+      "cancelled": false,
+      "substituted": false
+    },
+    {
+      "para": 3,
+      "subject": "Плавання",
       "teacher": "Опанащук Ю.М.",
       "room": "305",
       "cancelled": false,

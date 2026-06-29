@@ -1,14 +1,12 @@
 {
   "group": "К17",
   "course": 1,
-  "day_parity": "even",
-  "tomorrow_parity": "odd",
-  "tomorrow_date": "29.06.2026",
+  "day_parity": "odd",
+  "tomorrow_parity": "even",
+  "tomorrow_date": "30.06.2026",
   "subs_tomorrow_missing": true,
-  "today": "Неділя",
-  "today_lessons": [],
-  "tomorrow": "Понеділок",
-  "tomorrow_lessons": [
+  "today": "Понеділок",
+  "today_lessons": [
     {
       "para": 1,
       "subject": "Математика (алгебра і початок аналізу та геометрія)",
@@ -37,6 +35,33 @@
       "para": 4,
       "subject": "Історія України",
       "teacher": "Міщенко В.А.",
+      "room": "312",
+      "cancelled": false,
+      "substituted": false
+    }
+  ],
+  "tomorrow": "Вівторок",
+  "tomorrow_lessons": [
+    {
+      "para": 1,
+      "subject": "Українська література",
+      "teacher": "Вольська Ю.В.",
+      "room": "312",
+      "cancelled": false,
+      "substituted": false
+    },
+    {
+      "para": 2,
+      "subject": "Основи економічної теорії",
+      "teacher": "Вознюк В.Г.",
+      "room": "312",
+      "cancelled": false,
+      "substituted": false
+    },
+    {
+      "para": 3,
+      "subject": "Захист України",
+      "teacher": "Паламарчук А.С.",
       "room": "312",
       "cancelled": false,
       "substituted": false
