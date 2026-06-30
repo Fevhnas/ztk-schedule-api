@@ -1,39 +1,12 @@
 {
   "group": "ФК36",
   "course": 3,
-  "day_parity": "odd",
-  "tomorrow_parity": "even",
-  "tomorrow_date": "30.06.2026",
+  "day_parity": "even",
+  "tomorrow_parity": "odd",
+  "tomorrow_date": "01.07.2026",
   "subs_tomorrow_missing": true,
-  "today": "Понеділок",
+  "today": "Вівторок",
   "today_lessons": [
-    {
-      "para": 2,
-      "subject": "Підвищення спортивної майстерності",
-      "teacher": "Ясінська К.О.",
-      "room": "400а",
-      "cancelled": false,
-      "substituted": false
-    },
-    {
-      "para": 3,
-      "subject": "Легка атлетика",
-      "teacher": "Ясінська К.О.",
-      "room": "400а",
-      "cancelled": false,
-      "substituted": false
-    },
-    {
-      "para": 4,
-      "subject": "Іноземна мова за професійним спрямуванням",
-      "teacher": "Карплюк Т.Ю.",
-      "room": "400а",
-      "cancelled": false,
-      "substituted": false
-    }
-  ],
-  "tomorrow": "Вівторок",
-  "tomorrow_lessons": [
     {
       "para": 4,
       "subject": "Теорія і методика спортивних ігор",
@@ -53,6 +26,33 @@
     {
       "para": 6,
       "subject": "Медико-педагогічний контроль",
+      "teacher": "Левчук Л.М.",
+      "room": "400а",
+      "cancelled": false,
+      "substituted": false
+    }
+  ],
+  "tomorrow": "Середа",
+  "tomorrow_lessons": [
+    {
+      "para": 3,
+      "subject": "Атлетична гімнастика",
+      "teacher": "Лисюк Д.О.",
+      "room": "400а",
+      "cancelled": false,
+      "substituted": false
+    },
+    {
+      "para": 4,
+      "subject": "Оздоровчий фітнес",
+      "teacher": "Опанащук Ю.М.",
+      "room": "400а",
+      "cancelled": false,
+      "substituted": false
+    },
+    {
+      "para": 5,
+      "subject": "Долікарська медична допомога",
       "teacher": "Левчук Л.М.",
       "room": "400а",
       "cancelled": false,
