@@ -1,39 +1,12 @@
 {
   "group": "ФК16",
   "course": 1,
-  "day_parity": "even",
-  "tomorrow_parity": "odd",
-  "tomorrow_date": "01.07.2026",
+  "day_parity": "odd",
+  "tomorrow_parity": "even",
+  "tomorrow_date": "02.07.2026",
   "subs_tomorrow_missing": true,
-  "today": "Вівторок",
+  "today": "Середа",
   "today_lessons": [
-    {
-      "para": 1,
-      "subject": "Фізична культура",
-      "teacher": "Ярмоленко В.С.",
-      "room": "300",
-      "cancelled": false,
-      "substituted": false
-    },
-    {
-      "para": 2,
-      "subject": "Фізика і астрономія",
-      "teacher": "Кочин І.С.",
-      "room": "300",
-      "cancelled": false,
-      "substituted": false
-    },
-    {
-      "para": 3,
-      "subject": "Плавання",
-      "teacher": "Опанащук Ю.М.",
-      "room": "300",
-      "cancelled": false,
-      "substituted": false
-    }
-  ],
-  "tomorrow": "Середа",
-  "tomorrow_lessons": [
     {
       "para": 1,
       "subject": "Основи економічної теорії",
@@ -62,6 +35,41 @@
       "para": 4,
       "subject": "Захист України",
       "teacher": "Паламарчук А.С.",
+      "room": "300",
+      "cancelled": false,
+      "substituted": false
+    }
+  ],
+  "tomorrow": "Четвер",
+  "tomorrow_lessons": [
+    {
+      "para": 1,
+      "subject": "Фізика і астрономія",
+      "teacher": "Кочин І.С.",
+      "room": "300",
+      "cancelled": false,
+      "substituted": false
+    },
+    {
+      "para": 2,
+      "subject": "Іноземна мова",
+      "teacher": "Семенюк Л.М.",
+      "room": "300",
+      "cancelled": false,
+      "substituted": false
+    },
+    {
+      "para": 3,
+      "subject": "Математика (алгебра і початок аналізу та геометрія)",
+      "teacher": "Петрова А.А.",
+      "room": "300",
+      "cancelled": false,
+      "substituted": false
+    },
+    {
+      "para": 4,
+      "subject": "Всесвітня історія",
+      "teacher": "Міщенко В.А.",
       "room": "300",
       "cancelled": false,
       "substituted": false

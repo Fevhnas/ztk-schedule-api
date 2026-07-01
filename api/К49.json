@@ -1,31 +1,12 @@
 {
   "group": "К49",
   "course": 4,
-  "day_parity": "even",
-  "tomorrow_parity": "odd",
-  "tomorrow_date": "01.07.2026",
+  "day_parity": "odd",
+  "tomorrow_parity": "even",
+  "tomorrow_date": "02.07.2026",
   "subs_tomorrow_missing": true,
-  "today": "Вівторок",
+  "today": "Середа",
   "today_lessons": [
-    {
-      "para": 4,
-      "subject": "Програмне забезпечення",
-      "teacher": "Ширман М.Ю.",
-      "room": "417",
-      "cancelled": false,
-      "substituted": false
-    },
-    {
-      "para": 5,
-      "subject": "Економіка і планування виробництва",
-      "teacher": "Зіневич К.С.",
-      "room": "417",
-      "cancelled": false,
-      "substituted": false
-    }
-  ],
-  "tomorrow": "Середа",
-  "tomorrow_lessons": [
     {
       "para": 5,
       "subject": "Комп'ютерні системи та мережі",
@@ -38,6 +19,33 @@
       "para": 6,
       "subject": "Інженерна та комп'ютерна графіка",
       "teacher": "Макарчук О.В.",
+      "room": "417",
+      "cancelled": false,
+      "substituted": false
+    }
+  ],
+  "tomorrow": "Четвер",
+  "tomorrow_lessons": [
+    {
+      "para": 4,
+      "subject": "Програмне забезпечення",
+      "teacher": "Ширман М.Ю.",
+      "room": "417",
+      "cancelled": false,
+      "substituted": false
+    },
+    {
+      "para": 5,
+      "subject": "Програмування",
+      "teacher": "Кравець І.В.",
+      "room": "417",
+      "cancelled": false,
+      "substituted": false
+    },
+    {
+      "para": 6,
+      "subject": "Комп'ютерні системи та мережі",
+      "teacher": "Сербин Б.В.",
       "room": "417",
       "cancelled": false,
       "substituted": false
