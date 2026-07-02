@@ -1,0 +1,54 @@
+{
+  "group": "К39",
+  "course": 3,
+  "day_parity": "even",
+  "tomorrow_parity": "odd",
+  "tomorrow_date": "03.07.2026",
+  "subs_tomorrow_missing": true,
+  "today": "Четвер",
+  "today_lessons": [
+    {
+      "para": 1,
+      "subject": "Комп'ютерна схемотехніка",
+      "teacher": "Макарчук О.В.",
+      "room": "302",
+      "cancelled": false,
+      "substituted": false
+    },
+    {
+      "para": 2,
+      "subject": "Операційні системи",
+      "teacher": "Лінецький Б.І.",
+      "room": "302",
+      "cancelled": false,
+      "substituted": false
+    },
+    {
+      "para": 3,
+      "subject": "Дискретна математика",
+      "teacher": "Гаврилюк О.В.",
+      "room": "302",
+      "cancelled": false,
+      "substituted": false
+    }
+  ],
+  "tomorrow": "П'ятниця",
+  "tomorrow_lessons": [
+    {
+      "para": 2,
+      "subject": "Монтаж електронних засобів",
+      "teacher": "Максименко М.О.",
+      "room": "302",
+      "cancelled": false,
+      "substituted": false
+    },
+    {
+      "para": 3,
+      "subject": "Основи менеджменту",
+      "teacher": "Капітула Л.Л.",
+      "room": "302",
+      "cancelled": false,
+      "substituted": false
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "group": "Ел31",
+  "course": 3,
+  "day_parity": "even",
+  "tomorrow_parity": "odd",
+  "tomorrow_date": "03.07.2026",
+  "subs_tomorrow_missing": true,
+  "today": "Четвер",
+  "today_lessons": [
+    {
+      "para": 1,
+      "subject": "Основи промислової електроніки мікропроцесорної техніки та автоматики",
+      "teacher": "Кузьомко В.І.",
+      "room": "107",
+      "cancelled": false,
+      "substituted": false
+    },
+    {
+      "para": 2,
+      "subject": "Обчислювальна та міктропроцесорна техніка в системах контролю керування та захисту",
+      "teacher": "Кузьомко В.І.",
+      "room": "107",
+      "cancelled": false,
+      "substituted": false
+    },
+    {
+      "para": 3,
+      "subject": "Електроустаткування підприємств і цивільних споруд",
+      "teacher": "Сліпцов І.Ю.",
+      "room": "107",
+      "cancelled": false,
+      "substituted": false
+    }
+  ],
+  "tomorrow": "П'ятниця",
+  "tomorrow_lessons": [
+    {
+      "para": 2,
+      "subject": "Основи промислової електроніки мікропроцесорної техніки та автоматики",
+      "teacher": "Кузьомко В.І.",
+      "room": "107",
+      "cancelled": false,
+      "substituted": false
+    },
+    {
+      "para": 3,
+      "subject": "Електроустаткування підприємств і цивільних споруд",
+      "teacher": "Сліпцов І.Ю.",
+      "room": "107",
+      "cancelled": false,
+      "substituted": false
+    }
+  ]
+}

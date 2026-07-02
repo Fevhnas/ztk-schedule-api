@@ -1,0 +1,54 @@
+{
+  "group": "МТ33А",
+  "course": 3,
+  "day_parity": "even",
+  "tomorrow_parity": "odd",
+  "tomorrow_date": "03.07.2026",
+  "subs_tomorrow_missing": true,
+  "today": "Четвер",
+  "today_lessons": [
+    {
+      "para": 4,
+      "subject": "Іноземна мова за професійним спрямуванням",
+      "teacher": "Ходжаєва Е.Т.",
+      "room": null,
+      "cancelled": false,
+      "substituted": false
+    },
+    {
+      "para": 5,
+      "subject": "Основи конструювання виробів з деревини",
+      "teacher": "Савченко Н.В.",
+      "room": null,
+      "cancelled": false,
+      "substituted": false
+    },
+    {
+      "para": 6,
+      "subject": "Українська мова за професійним спрямуванням",
+      "teacher": "Дишлева Т.І.",
+      "room": null,
+      "cancelled": false,
+      "substituted": false
+    }
+  ],
+  "tomorrow": "П'ятниця",
+  "tomorrow_lessons": [
+    {
+      "para": 1,
+      "subject": "Основи технології столярно- будівельного виробництва",
+      "teacher": "Дишлева Т.І.",
+      "room": null,
+      "cancelled": false,
+      "substituted": false
+    },
+    {
+      "para": 2,
+      "subject": "Основи метрології і стандартизації",
+      "teacher": "Шурпан М.М.",
+      "room": null,
+      "cancelled": false,
+      "substituted": false
+    }
+  ]
+}
