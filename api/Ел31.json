@@ -1,0 +1,62 @@
+{
+  "group": "Ел31",
+  "course": 3,
+  "day_parity": "even",
+  "tomorrow_parity": "odd",
+  "tomorrow_date": "07.07.2026",
+  "subs_tomorrow_missing": true,
+  "today": "Понеділок",
+  "today_lessons": [
+    {
+      "para": 2,
+      "subject": "Основи електропривода",
+      "teacher": "Білоконь С.Ф.",
+      "room": "107",
+      "cancelled": false,
+      "substituted": false
+    },
+    {
+      "para": 3,
+      "subject": "Електричні вимірювання",
+      "teacher": "Приймак С.Л.",
+      "room": "107",
+      "cancelled": false,
+      "substituted": false
+    },
+    {
+      "para": 4,
+      "subject": "Монтаж, експлуатація і ремонт електроустановок",
+      "teacher": "Романчук Н.І.",
+      "room": "107",
+      "cancelled": false,
+      "substituted": false
+    }
+  ],
+  "tomorrow": "Вівторок",
+  "tomorrow_lessons": [
+    {
+      "para": 1,
+      "subject": "Іноземна мова за професійним спрямуванням",
+      "teacher": "Корплюк Т.Ю.",
+      "room": "107",
+      "cancelled": false,
+      "substituted": false
+    },
+    {
+      "para": 2,
+      "subject": "Обчислювальна та міктропроцесорна техніка в системах контролю керування та захисту",
+      "teacher": "Кузьомко В.І.",
+      "room": "107",
+      "cancelled": false,
+      "substituted": false
+    },
+    {
+      "para": 3,
+      "subject": "Монтаж, експлуатація і ремонт електроустановок",
+      "teacher": "Романчук Н.І.",
+      "room": "107",
+      "cancelled": false,
+      "substituted": false
+    }
+  ]
+}

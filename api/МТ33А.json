@@ -1,0 +1,62 @@
+{
+  "group": "МТ33А",
+  "course": 3,
+  "day_parity": "even",
+  "tomorrow_parity": "odd",
+  "tomorrow_date": "07.07.2026",
+  "subs_tomorrow_missing": true,
+  "today": "Понеділок",
+  "today_lessons": [
+    {
+      "para": 3,
+      "subject": "Фізичне виховання",
+      "teacher": "Лисюк Д.О.",
+      "room": null,
+      "cancelled": false,
+      "substituted": false
+    },
+    {
+      "para": 4,
+      "subject": "Основи метрології і стандартизації",
+      "teacher": "Шурпан М.М.",
+      "room": null,
+      "cancelled": false,
+      "substituted": false
+    },
+    {
+      "para": 5,
+      "subject": "Українська мова за професійним спрямуванням",
+      "teacher": "Дишлева Т.І.",
+      "room": null,
+      "cancelled": false,
+      "substituted": false
+    }
+  ],
+  "tomorrow": "Вівторок",
+  "tomorrow_lessons": [
+    {
+      "para": 1,
+      "subject": "Основи технології столярно- будівельного виробництва",
+      "teacher": "Дишлева Т.І.",
+      "room": null,
+      "cancelled": false,
+      "substituted": false
+    },
+    {
+      "para": 2,
+      "subject": "Основи електротехніки",
+      "teacher": "Пегарькова Г.А.",
+      "room": null,
+      "cancelled": false,
+      "substituted": false
+    },
+    {
+      "para": 3,
+      "subject": "Основи технології меблевого виробництва",
+      "teacher": "Дишлева Т.І.",
+      "room": null,
+      "cancelled": false,
+      "substituted": false
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "group": "С15",
+  "course": 1,
+  "day_parity": "even",
+  "tomorrow_parity": "odd",
+  "tomorrow_date": "07.07.2026",
+  "subs_tomorrow_missing": true,
+  "today": "Понеділок",
+  "today_lessons": [
+    {
+      "para": 1,
+      "subject": "Хімія",
+      "teacher": "Лісіцька Н.В.",
+      "room": "416",
+      "cancelled": false,
+      "substituted": false
+    },
+    {
+      "para": 2,
+      "subject": "Основи економічної теорії",
+      "teacher": "Капітула Л.Л.",
+      "room": "416",
+      "cancelled": false,
+      "substituted": false
+    },
+    {
+      "para": 3,
+      "subject": "Історія України",
+      "teacher": "Іваненко Л.Л.",
+      "room": "416",
+      "cancelled": false,
+      "substituted": false
+    },
+    {
+      "para": 4,
+      "subject": "Захист України",
+      "teacher": "Паламарчук А.С.",
+      "room": "416",
+      "cancelled": false,
+      "substituted": false
+    }
+  ],
+  "tomorrow": "Вівторок",
+  "tomorrow_lessons": [
+    {
+      "para": 1,
+      "subject": "Українська мова",
+      "teacher": "Степанчук Н.В.",
+      "room": "416",
+      "cancelled": false,
+      "substituted": false
+    },
+    {
+      "para": 2,
+      "subject": "Іноземна мова",
+      "teacher": "Семенюк Л.М.",
+      "room": "416",
+      "cancelled": false,
+      "substituted": false
+    },
+    {
+      "para": 3,
+      "subject": "Фізика і астрономія",
+      "teacher": "Гордійчук О.М.",
+      "room": "416",
+      "cancelled": false,
+      "substituted": false
+    },
+    {
+      "para": 4,
+      "subject": "Всесвітня історія",
+      "teacher": "Іваненко Л.Л.",
+      "room": "416",
+      "cancelled": false,
+      "substituted": false
+    }
+  ]
+}

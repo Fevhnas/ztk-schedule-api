@@ -1,0 +1,78 @@
+{
+  "group": "Д28",
+  "course": 2,
+  "day_parity": "even",
+  "tomorrow_parity": "odd",
+  "tomorrow_date": "07.07.2026",
+  "subs_tomorrow_missing": true,
+  "today": "Понеділок",
+  "today_lessons": [
+    {
+      "para": 1,
+      "subject": "Живопис",
+      "teacher": "Черніченко А.П.",
+      "room": "415",
+      "cancelled": false,
+      "substituted": false
+    },
+    {
+      "para": 2,
+      "subject": "Живопис",
+      "teacher": "Черніченко А.П.",
+      "room": "415",
+      "cancelled": false,
+      "substituted": false
+    },
+    {
+      "para": 3,
+      "subject": "Охорона праці",
+      "teacher": "Дишлева Т.І.",
+      "room": "415",
+      "cancelled": false,
+      "substituted": false
+    },
+    {
+      "para": 4,
+      "subject": "Основи нарисної геометрії та проєктної графіки",
+      "teacher": "Фурманюк С.М.",
+      "room": "415",
+      "cancelled": false,
+      "substituted": false
+    }
+  ],
+  "tomorrow": "Вівторок",
+  "tomorrow_lessons": [
+    {
+      "para": 1,
+      "subject": "Всесвітня історія",
+      "teacher": "Іваненко Л.Л.",
+      "room": "415",
+      "cancelled": false,
+      "substituted": false
+    },
+    {
+      "para": 2,
+      "subject": "Українська мова",
+      "teacher": "Степанчук Н.В.",
+      "room": "415",
+      "cancelled": false,
+      "substituted": false
+    },
+    {
+      "para": 3,
+      "subject": "Основи композиції",
+      "teacher": "Єлісєєва С.С.",
+      "room": "415",
+      "cancelled": false,
+      "substituted": false
+    },
+    {
+      "para": 4,
+      "subject": "Фізична культура",
+      "teacher": "Ясінська К.О.",
+      "room": "415",
+      "cancelled": false,
+      "substituted": false
+    }
+  ]
+}
