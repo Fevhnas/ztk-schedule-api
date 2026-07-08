@@ -1,23 +1,34 @@
 {
   "group": "С25",
   "course": 2,
-  "day_parity": "odd",
-  "tomorrow_parity": "even",
-  "tomorrow_date": "08.07.2026",
+  "day_parity": "even",
+  "tomorrow_parity": "odd",
+  "tomorrow_date": "09.07.2026",
   "subs_tomorrow_missing": true,
-  "today": "Вівторок",
+  "today": "Середа",
   "today_lessons": [
     {
+      "para": 3,
+      "subject": "Історія соціальної роботи",
+      "teacher": "Остапчук В.В.",
+      "room": "411",
+      "cancelled": false,
+      "substituted": false
+    }
+  ],
+  "tomorrow": "Четвер",
+  "tomorrow_lessons": [
+    {
       "para": 1,
-      "subject": "Валеологія",
-      "teacher": null,
-      "room": null,
+      "subject": "Основи підприємницької діяльності",
+      "teacher": "Камінська М.Б.",
+      "room": "411",
       "cancelled": false,
       "substituted": false
     },
     {
       "para": 2,
-      "subject": "Загальна психологія",
+      "subject": "Фізична культура",
       "teacher": null,
       "room": null,
       "cancelled": false,
@@ -25,28 +36,17 @@
     },
     {
       "para": 3,
-      "subject": "Всесвітня історія",
-      "teacher": "Іваненко Л.Л.",
+      "subject": "об'єднаних територіальних громадах",
+      "teacher": null,
       "room": "411",
       "cancelled": false,
       "substituted": false
     },
     {
       "para": 4,
-      "subject": "Українська мова",
+      "subject": "Загальна психологія",
       "teacher": null,
       "room": null,
-      "cancelled": false,
-      "substituted": false
-    }
-  ],
-  "tomorrow": "Середа",
-  "tomorrow_lessons": [
-    {
-      "para": 3,
-      "subject": "Історія соціальної роботи",
-      "teacher": "Остапчук В.В.",
-      "room": "411",
       "cancelled": false,
       "substituted": false
     }

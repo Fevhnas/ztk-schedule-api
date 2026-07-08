@@ -1,47 +1,12 @@
 {
   "group": "Ф25",
   "course": 2,
-  "day_parity": "odd",
-  "tomorrow_parity": "even",
-  "tomorrow_date": "08.07.2026",
+  "day_parity": "even",
+  "tomorrow_parity": "odd",
+  "tomorrow_date": "09.07.2026",
   "subs_tomorrow_missing": true,
-  "today": "Вівторок",
+  "today": "Середа",
   "today_lessons": [
-    {
-      "para": 1,
-      "subject": "Історія України",
-      "teacher": "Міщенко В.А.",
-      "room": "303",
-      "cancelled": false,
-      "substituted": false
-    },
-    {
-      "para": 2,
-      "subject": "Вища математика",
-      "teacher": "Петрова А.А.",
-      "room": "303",
-      "cancelled": false,
-      "substituted": false
-    },
-    {
-      "para": 3,
-      "subject": "Економіка підприємства",
-      "teacher": "Козак Н.М.",
-      "room": "303",
-      "cancelled": false,
-      "substituted": false
-    },
-    {
-      "para": 4,
-      "subject": "Фінанси",
-      "teacher": "Паночишена А.В.",
-      "room": "303",
-      "cancelled": false,
-      "substituted": false
-    }
-  ],
-  "tomorrow": "Середа",
-  "tomorrow_lessons": [
     {
       "para": 1,
       "subject": "Всесвітня історія",
@@ -62,6 +27,41 @@
       "para": 3,
       "subject": "Статистика",
       "teacher": "Камінська М.Б.",
+      "room": "303",
+      "cancelled": false,
+      "substituted": false
+    },
+    {
+      "para": 4,
+      "subject": "Фізична культура",
+      "teacher": "Лисюк Д.О.",
+      "room": "303",
+      "cancelled": false,
+      "substituted": false
+    }
+  ],
+  "tomorrow": "Четвер",
+  "tomorrow_lessons": [
+    {
+      "para": 1,
+      "subject": "Вища математика",
+      "teacher": "Петрова А.А.",
+      "room": "303",
+      "cancelled": false,
+      "substituted": false
+    },
+    {
+      "para": 2,
+      "subject": "Бухгалтерський облік",
+      "teacher": "Вознюк В.Г.",
+      "room": "303",
+      "cancelled": false,
+      "substituted": false
+    },
+    {
+      "para": 3,
+      "subject": "Економіка і нормування праці",
+      "teacher": "Зіневич К.С.",
       "room": "303",
       "cancelled": false,
       "substituted": false

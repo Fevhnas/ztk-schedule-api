@@ -1,24 +1,16 @@
 {
   "group": "К39",
   "course": 3,
-  "day_parity": "odd",
-  "tomorrow_parity": "even",
-  "tomorrow_date": "08.07.2026",
+  "day_parity": "even",
+  "tomorrow_parity": "odd",
+  "tomorrow_date": "09.07.2026",
   "subs_tomorrow_missing": true,
-  "today": "Вівторок",
+  "today": "Середа",
   "today_lessons": [
     {
-      "para": 1,
-      "subject": "Комп'ютерна схемотехніка",
-      "teacher": "Макарчук О.В.",
-      "room": "302",
-      "cancelled": false,
-      "substituted": false
-    },
-    {
       "para": 2,
-      "subject": "Фізичне виховання",
-      "teacher": "Опанащук ю.М.",
+      "subject": "Основи менеджменту",
+      "teacher": "Капітула Л.Л.",
       "room": "302",
       "cancelled": false,
       "substituted": false
@@ -32,20 +24,28 @@
       "substituted": false
     }
   ],
-  "tomorrow": "Середа",
+  "tomorrow": "Четвер",
   "tomorrow_lessons": [
     {
+      "para": 1,
+      "subject": "Комп'ютерна схемотехніка",
+      "teacher": "Макарчук О.В.",
+      "room": "302",
+      "cancelled": false,
+      "substituted": false
+    },
+    {
       "para": 2,
-      "subject": "Основи менеджменту",
-      "teacher": "Капітула Л.Л.",
+      "subject": "Операційні системи",
+      "teacher": "Лінецький Б.І.",
       "room": "302",
       "cancelled": false,
       "substituted": false
     },
     {
       "para": 3,
-      "subject": "Українська мова за професійним спрямуванням",
-      "teacher": "Римар Т.В.",
+      "subject": "Дискретна математика",
+      "teacher": "Гаврилюк О.В.",
       "room": "302",
       "cancelled": false,
       "substituted": false

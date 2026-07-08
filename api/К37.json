@@ -1,31 +1,12 @@
 {
   "group": "К37",
   "course": 3,
-  "day_parity": "odd",
-  "tomorrow_parity": "even",
-  "tomorrow_date": "08.07.2026",
+  "day_parity": "even",
+  "tomorrow_parity": "odd",
+  "tomorrow_date": "09.07.2026",
   "subs_tomorrow_missing": true,
-  "today": "Вівторок",
+  "today": "Середа",
   "today_lessons": [
-    {
-      "para": 1,
-      "subject": "Українська мова за професійним спрямуванням",
-      "teacher": "Римар Т.В.",
-      "room": "315",
-      "cancelled": false,
-      "substituted": false
-    },
-    {
-      "para": 2,
-      "subject": "Основи менеджменту",
-      "teacher": "Капітула Л.Л.",
-      "room": "315",
-      "cancelled": false,
-      "substituted": false
-    }
-  ],
-  "tomorrow": "Середа",
-  "tomorrow_lessons": [
     {
       "para": 1,
       "subject": "Комп'ютерна схемотехніка",
@@ -38,6 +19,33 @@
       "para": 2,
       "subject": "Монтаж електронних засобів",
       "teacher": "Максименко М.О.",
+      "room": "315",
+      "cancelled": false,
+      "substituted": false
+    }
+  ],
+  "tomorrow": "Четвер",
+  "tomorrow_lessons": [
+    {
+      "para": 2,
+      "subject": "Монтаж електронних засобів",
+      "teacher": "Максименко М.О.",
+      "room": "315",
+      "cancelled": false,
+      "substituted": false
+    },
+    {
+      "para": 3,
+      "subject": "Операційні системи",
+      "teacher": "Лінецький Б.І.",
+      "room": "315",
+      "cancelled": false,
+      "substituted": false
+    },
+    {
+      "para": 4,
+      "subject": "Іноземна мова за професійним спрямуванням",
+      "teacher": "Карплюк Т.Ю.",
       "room": "315",
       "cancelled": false,
       "substituted": false
