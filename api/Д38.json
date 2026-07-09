@@ -1,39 +1,12 @@
 {
   "group": "Д38",
   "course": 3,
-  "day_parity": "even",
-  "tomorrow_parity": "odd",
-  "tomorrow_date": "09.07.2026",
+  "day_parity": "odd",
+  "tomorrow_parity": "even",
+  "tomorrow_date": "10.07.2026",
   "subs_tomorrow_missing": true,
-  "today": "Середа",
+  "today": "Четвер",
   "today_lessons": [
-    {
-      "para": 1,
-      "subject": "Основи проєктної майстерності",
-      "teacher": "Мельник О.А.",
-      "room": "112",
-      "cancelled": false,
-      "substituted": false
-    },
-    {
-      "para": 2,
-      "subject": "Живопис",
-      "teacher": "Богомаз П.Я.",
-      "room": "112",
-      "cancelled": false,
-      "substituted": false
-    },
-    {
-      "para": 3,
-      "subject": "Живопис",
-      "teacher": "Богомаз П.Я.",
-      "room": "112",
-      "cancelled": false,
-      "substituted": false
-    }
-  ],
-  "tomorrow": "Четвер",
-  "tomorrow_lessons": [
     {
       "para": 1,
       "subject": "Художнє проєктування",
@@ -54,6 +27,33 @@
       "para": 3,
       "subject": "Економіка та організація діяльності",
       "teacher": "Капітула Л.Л.",
+      "room": "112",
+      "cancelled": false,
+      "substituted": false
+    }
+  ],
+  "tomorrow": "П'ятниця",
+  "tomorrow_lessons": [
+    {
+      "para": 1,
+      "subject": "Фізичне виховання",
+      "teacher": "Ярмоленко В.С.",
+      "room": "112",
+      "cancelled": false,
+      "substituted": false
+    },
+    {
+      "para": 2,
+      "subject": "Основи проєктної майстерності",
+      "teacher": "Мельник О.А.",
+      "room": "112",
+      "cancelled": false,
+      "substituted": false
+    },
+    {
+      "para": 3,
+      "subject": "Художнє проєктування",
+      "teacher": "Черніченко А.П.",
       "room": "112",
       "cancelled": false,
       "substituted": false
