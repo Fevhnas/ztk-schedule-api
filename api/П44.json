@@ -1,31 +1,12 @@
 {
   "group": "П44",
   "course": 4,
-  "day_parity": "odd",
-  "tomorrow_parity": "even",
-  "tomorrow_date": "10.07.2026",
+  "day_parity": "even",
+  "tomorrow_parity": "odd",
+  "tomorrow_date": "11.07.2026",
   "subs_tomorrow_missing": true,
-  "today": "Четвер",
+  "today": "П'ятниця",
   "today_lessons": [
-    {
-      "para": 4,
-      "subject": "організація виробництва",
-      "teacher": "Зіневич К.С.",
-      "room": "300",
-      "cancelled": false,
-      "substituted": false
-    },
-    {
-      "para": 5,
-      "subject": "Проєктний практикум",
-      "teacher": "Макарчук О.В.",
-      "room": "300",
-      "cancelled": false,
-      "substituted": false
-    }
-  ],
-  "tomorrow": "П'ятниця",
-  "tomorrow_lessons": [
     {
       "para": 4,
       "subject": "Розробка застосувань клієнт-сервер",
@@ -42,5 +23,7 @@
       "cancelled": false,
       "substituted": false
     }
-  ]
+  ],
+  "tomorrow": "Субота",
+  "tomorrow_lessons": []
 }
