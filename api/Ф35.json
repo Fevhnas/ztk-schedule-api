@@ -1,12 +1,37 @@
 {
   "group": "Ф35",
   "course": 3,
-  "day_parity": "odd",
-  "tomorrow_parity": "even",
-  "tomorrow_date": "12.07.2026",
+  "day_parity": "even",
+  "tomorrow_parity": "odd",
+  "tomorrow_date": "13.07.2026",
   "subs_tomorrow_missing": true,
-  "today": "Субота",
+  "today": "Неділя",
   "today_lessons": [],
-  "tomorrow": "Неділя",
-  "tomorrow_lessons": []
+  "tomorrow": "Понеділок",
+  "tomorrow_lessons": [
+    {
+      "para": 4,
+      "subject": "Інформаційні системи і технології у фінансово- кредитних установах",
+      "teacher": "Рубанець Д.О.",
+      "room": "214",
+      "cancelled": false,
+      "substituted": false
+    },
+    {
+      "para": 5,
+      "subject": "Бухгалтерський облік і звітність комерційних банків",
+      "teacher": "Зіневич К.С.",
+      "room": "214",
+      "cancelled": false,
+      "substituted": false
+    },
+    {
+      "para": 6,
+      "subject": "Казначейська справа",
+      "teacher": "Зіневич К.С.",
+      "room": "214",
+      "cancelled": false,
+      "substituted": false
+    }
+  ]
 }
