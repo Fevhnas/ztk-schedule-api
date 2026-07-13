@@ -1,14 +1,12 @@
 {
   "group": "МТ22А",
   "course": 2,
-  "day_parity": "even",
-  "tomorrow_parity": "odd",
-  "tomorrow_date": "13.07.2026",
+  "day_parity": "odd",
+  "tomorrow_parity": "even",
+  "tomorrow_date": "14.07.2026",
   "subs_tomorrow_missing": true,
-  "today": "Неділя",
-  "today_lessons": [],
-  "tomorrow": "Понеділок",
-  "tomorrow_lessons": [
+  "today": "Понеділок",
+  "today_lessons": [
     {
       "para": 1,
       "subject": "Основи вищої математика",
@@ -21,6 +19,33 @@
       "para": 2,
       "subject": "Основи технології лісопильно-д/о виробництва",
       "teacher": "Шурпан М.М.",
+      "room": "106",
+      "cancelled": false,
+      "substituted": false
+    }
+  ],
+  "tomorrow": "Вівторок",
+  "tomorrow_lessons": [
+    {
+      "para": 1,
+      "subject": "Історія України",
+      "teacher": "Міщенко В.А.",
+      "room": "106",
+      "cancelled": false,
+      "substituted": false
+    },
+    {
+      "para": 2,
+      "subject": "Деревинознавство",
+      "teacher": "Шурпан М.М.",
+      "room": "106",
+      "cancelled": false,
+      "substituted": false
+    },
+    {
+      "para": 3,
+      "subject": "Обладнання газузі",
+      "teacher": "Савченко Н.В.",
       "room": "106",
       "cancelled": false,
       "substituted": false

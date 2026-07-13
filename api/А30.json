@@ -1,14 +1,12 @@
 {
   "group": "А30",
   "course": 3,
-  "day_parity": "even",
-  "tomorrow_parity": "odd",
-  "tomorrow_date": "13.07.2026",
+  "day_parity": "odd",
+  "tomorrow_parity": "even",
+  "tomorrow_date": "14.07.2026",
   "subs_tomorrow_missing": true,
-  "today": "Неділя",
-  "today_lessons": [],
-  "tomorrow": "Понеділок",
-  "tomorrow_lessons": [
+  "today": "Понеділок",
+  "today_lessons": [
     {
       "para": 1,
       "subject": "Електротехнічні та конструкційні матеріали",
@@ -29,6 +27,33 @@
       "para": 3,
       "subject": "Основи метрології і засоби технічного контролю",
       "teacher": "Кузьомко В.І.",
+      "room": "318",
+      "cancelled": false,
+      "substituted": false
+    }
+  ],
+  "tomorrow": "Вівторок",
+  "tomorrow_lessons": [
+    {
+      "para": 1,
+      "subject": "Обчислювальна та міктропроцесорна техніка в системах контролю керування та захисту",
+      "teacher": "Кузьомко В.І.",
+      "room": "318",
+      "cancelled": false,
+      "substituted": false
+    },
+    {
+      "para": 2,
+      "subject": "Теорія автоматичного регулювання та автоматичні регулятори",
+      "teacher": "Приймак С.Л.",
+      "room": "318",
+      "cancelled": false,
+      "substituted": false
+    },
+    {
+      "para": 3,
+      "subject": "Автоматизація технологічних процесів",
+      "teacher": "Приймак С.Л.",
       "room": "318",
       "cancelled": false,
       "substituted": false

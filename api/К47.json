@@ -1,14 +1,12 @@
 {
   "group": "К47",
   "course": 4,
-  "day_parity": "even",
-  "tomorrow_parity": "odd",
-  "tomorrow_date": "13.07.2026",
+  "day_parity": "odd",
+  "tomorrow_parity": "even",
+  "tomorrow_date": "14.07.2026",
   "subs_tomorrow_missing": true,
-  "today": "Неділя",
-  "today_lessons": [],
-  "tomorrow": "Понеділок",
-  "tomorrow_lessons": [
+  "today": "Понеділок",
+  "today_lessons": [
     {
       "para": 4,
       "subject": "Програмне забезпечення",
@@ -29,6 +27,25 @@
       "para": 6,
       "subject": "Інженерна та комп'ютерна графіка",
       "teacher": "Макарчук О.В.",
+      "room": "312",
+      "cancelled": false,
+      "substituted": false
+    }
+  ],
+  "tomorrow": "Вівторок",
+  "tomorrow_lessons": [
+    {
+      "para": 5,
+      "subject": "Програмування",
+      "teacher": "Кравець І.В.",
+      "room": "312",
+      "cancelled": false,
+      "substituted": false
+    },
+    {
+      "para": 6,
+      "subject": "Комп'ютерні системи та мережі",
+      "teacher": "Сербин Б.В.",
       "room": "312",
       "cancelled": false,
       "substituted": false
