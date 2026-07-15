@@ -1,39 +1,12 @@
 {
   "group": "Е34",
   "course": 3,
-  "day_parity": "even",
-  "tomorrow_parity": "odd",
-  "tomorrow_date": "15.07.2026",
+  "day_parity": "odd",
+  "tomorrow_parity": "even",
+  "tomorrow_date": "16.07.2026",
   "subs_tomorrow_missing": true,
-  "today": "Вівторок",
+  "today": "Середа",
   "today_lessons": [
-    {
-      "para": 3,
-      "subject": "Планування та організація діяльності підприємства",
-      "teacher": "Зіневич К.С.",
-      "room": "214",
-      "cancelled": false,
-      "substituted": false
-    },
-    {
-      "para": 4,
-      "subject": "Українська мова за професійним спрямуванням",
-      "teacher": "Римар Т.В.",
-      "room": "214",
-      "cancelled": false,
-      "substituted": false
-    },
-    {
-      "para": 5,
-      "subject": "Іноземна мова за професійним спрямуванням",
-      "teacher": "Ходжаєва Е.Т.",
-      "room": "214",
-      "cancelled": false,
-      "substituted": false
-    }
-  ],
-  "tomorrow": "Середа",
-  "tomorrow_lessons": [
     {
       "para": 3,
       "subject": "Інформаційні системи і технології на підприємствах",
@@ -54,6 +27,33 @@
       "para": 5,
       "subject": "Економічна статистика",
       "teacher": "Камінська М.Б.",
+      "room": "214",
+      "cancelled": false,
+      "substituted": false
+    }
+  ],
+  "tomorrow": "Четвер",
+  "tomorrow_lessons": [
+    {
+      "para": 3,
+      "subject": "Інформаційні системи і технології на підприємствах",
+      "teacher": "Рубанець Д.О.",
+      "room": "214",
+      "cancelled": false,
+      "substituted": false
+    },
+    {
+      "para": 4,
+      "subject": "Управління витратами",
+      "teacher": "Камінська М.Б.",
+      "room": "214",
+      "cancelled": false,
+      "substituted": false
+    },
+    {
+      "para": 5,
+      "subject": "Бюджетна система",
+      "teacher": "Паночишена А.В.",
       "room": "214",
       "cancelled": false,
       "substituted": false
