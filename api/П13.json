@@ -1,47 +1,12 @@
 {
   "group": "П13",
   "course": 1,
-  "day_parity": "odd",
-  "tomorrow_parity": "even",
-  "tomorrow_date": "16.07.2026",
+  "day_parity": "even",
+  "tomorrow_parity": "odd",
+  "tomorrow_date": "17.07.2026",
   "subs_tomorrow_missing": true,
-  "today": "Середа",
+  "today": "Четвер",
   "today_lessons": [
-    {
-      "para": 1,
-      "subject": "Культурологія",
-      "teacher": "Зелінська О.А.",
-      "room": "319",
-      "cancelled": false,
-      "substituted": false
-    },
-    {
-      "para": 2,
-      "subject": "Фізика і астрономія",
-      "teacher": "Гордійчук О.М.",
-      "room": "319",
-      "cancelled": false,
-      "substituted": false
-    },
-    {
-      "para": 3,
-      "subject": "Українська мова",
-      "teacher": "Вольська Ю.В.",
-      "room": "319",
-      "cancelled": false,
-      "substituted": false
-    },
-    {
-      "para": 4,
-      "subject": "Українська література",
-      "teacher": "Вольська Ю.В.",
-      "room": "319",
-      "cancelled": false,
-      "substituted": false
-    }
-  ],
-  "tomorrow": "Четвер",
-  "tomorrow_lessons": [
     {
       "para": 1,
       "subject": "Іноземна мова",
@@ -70,6 +35,33 @@
       "para": 4,
       "subject": "Фізична культура",
       "teacher": "Ярмоленко В.С.",
+      "room": "319",
+      "cancelled": false,
+      "substituted": false
+    }
+  ],
+  "tomorrow": "П'ятниця",
+  "tomorrow_lessons": [
+    {
+      "para": 1,
+      "subject": "Історія України",
+      "teacher": "Іваненко Л.Л.",
+      "room": "319",
+      "cancelled": false,
+      "substituted": false
+    },
+    {
+      "para": 2,
+      "subject": "Основи економічної теорії",
+      "teacher": "Рубанець Д.О.",
+      "room": "319",
+      "cancelled": false,
+      "substituted": false
+    },
+    {
+      "para": 3,
+      "subject": "Захист України",
+      "teacher": "Паламарчук А.С.",
       "room": "319",
       "cancelled": false,
       "substituted": false
