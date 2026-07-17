@@ -1,39 +1,12 @@
 {
   "group": "ФК36",
   "course": 3,
-  "day_parity": "even",
-  "tomorrow_parity": "odd",
-  "tomorrow_date": "17.07.2026",
+  "day_parity": "odd",
+  "tomorrow_parity": "even",
+  "tomorrow_date": "18.07.2026",
   "subs_tomorrow_missing": true,
-  "today": "Четвер",
+  "today": "П'ятниця",
   "today_lessons": [
-    {
-      "para": 2,
-      "subject": "Курсова робота (Теорія і методика спортивних ігор)",
-      "teacher": "Ярмоленко В.С.",
-      "room": "400а",
-      "cancelled": false,
-      "substituted": false
-    },
-    {
-      "para": 3,
-      "subject": "Легка атлетика",
-      "teacher": "Ясінська К.О.",
-      "room": "400а",
-      "cancelled": false,
-      "substituted": false
-    },
-    {
-      "para": 4,
-      "subject": "Підвищення спортивної майстерності",
-      "teacher": "Ясінська К.О.",
-      "room": "400а",
-      "cancelled": false,
-      "substituted": false
-    }
-  ],
-  "tomorrow": "П'ятниця",
-  "tomorrow_lessons": [
     {
       "para": 1,
       "subject": "Оздоровчий фітнес",
@@ -58,5 +31,7 @@
       "cancelled": false,
       "substituted": false
     }
-  ]
+  ],
+  "tomorrow": "Субота",
+  "tomorrow_lessons": []
 }
