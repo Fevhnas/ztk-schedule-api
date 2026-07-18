@@ -1,29 +1,12 @@
 {
   "group": "Е34",
   "course": 3,
-  "day_parity": "odd",
-  "tomorrow_parity": "even",
-  "tomorrow_date": "18.07.2026",
+  "day_parity": "even",
+  "tomorrow_parity": "odd",
+  "tomorrow_date": "19.07.2026",
   "subs_tomorrow_missing": true,
-  "today": "П'ятниця",
-  "today_lessons": [
-    {
-      "para": 3,
-      "subject": "Бюджетна система",
-      "teacher": "Паночишена А.В.",
-      "room": "214",
-      "cancelled": false,
-      "substituted": false
-    },
-    {
-      "para": 4,
-      "subject": "Контролінг",
-      "teacher": "Камінська М.Б.",
-      "room": "214",
-      "cancelled": false,
-      "substituted": false
-    }
-  ],
-  "tomorrow": "Субота",
+  "today": "Субота",
+  "today_lessons": [],
+  "tomorrow": "Неділя",
   "tomorrow_lessons": []
 }

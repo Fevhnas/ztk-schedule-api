@@ -1,37 +1,12 @@
 {
   "group": "С35",
   "course": 3,
-  "day_parity": "odd",
-  "tomorrow_parity": "even",
-  "tomorrow_date": "18.07.2026",
+  "day_parity": "even",
+  "tomorrow_parity": "odd",
+  "tomorrow_date": "19.07.2026",
   "subs_tomorrow_missing": true,
-  "today": "П'ятниця",
-  "today_lessons": [
-    {
-      "para": 2,
-      "subject": "Технології соціальної роботи",
-      "teacher": "Остапчук В.В.",
-      "room": "313",
-      "cancelled": false,
-      "substituted": false
-    },
-    {
-      "para": 3,
-      "subject": "Соціальна конфліктологія",
-      "teacher": "Остапчук В.В.",
-      "room": "313",
-      "cancelled": false,
-      "substituted": false
-    },
-    {
-      "para": 4,
-      "subject": "Соціальна роботи з різними групами клієнтів",
-      "teacher": "Остапчук В.В.",
-      "room": "313",
-      "cancelled": false,
-      "substituted": false
-    }
-  ],
-  "tomorrow": "Субота",
+  "today": "Субота",
+  "today_lessons": [],
+  "tomorrow": "Неділя",
   "tomorrow_lessons": []
 }
