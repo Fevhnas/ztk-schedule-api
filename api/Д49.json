@@ -1,0 +1,29 @@
+{
+  "group": "Д49",
+  "course": 4,
+  "day_parity": "odd",
+  "tomorrow_parity": "even",
+  "tomorrow_date": "20.07.2026",
+  "subs_tomorrow_missing": true,
+  "today": "Неділя",
+  "today_lessons": [],
+  "tomorrow": "Понеділок",
+  "tomorrow_lessons": [
+    {
+      "para": 3,
+      "subject": "Проєктування візуальних комунікацій",
+      "teacher": "Єлісєєва С.С.",
+      "room": "402",
+      "cancelled": false,
+      "substituted": false
+    },
+    {
+      "para": 4,
+      "subject": "Проєктування візуальних комунікацій",
+      "teacher": "Єлісєєва С.С.",
+      "room": "402",
+      "cancelled": false,
+      "substituted": false
+    }
+  ]
+}

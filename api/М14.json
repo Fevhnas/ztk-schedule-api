@@ -1,0 +1,45 @@
+{
+  "group": "М14",
+  "course": 1,
+  "day_parity": "odd",
+  "tomorrow_parity": "even",
+  "tomorrow_date": "20.07.2026",
+  "subs_tomorrow_missing": true,
+  "today": "Неділя",
+  "today_lessons": [],
+  "tomorrow": "Понеділок",
+  "tomorrow_lessons": [
+    {
+      "para": 1,
+      "subject": "Фізика і астрономія",
+      "teacher": "Гордійчук О.М.",
+      "room": "214",
+      "cancelled": false,
+      "substituted": false
+    },
+    {
+      "para": 2,
+      "subject": "Основи філософських знань",
+      "teacher": "Башманівська Я.В.",
+      "room": "214",
+      "cancelled": false,
+      "substituted": false
+    },
+    {
+      "para": 3,
+      "subject": "Захист України",
+      "teacher": "Паламарчук А.С.",
+      "room": "214",
+      "cancelled": false,
+      "substituted": false
+    },
+    {
+      "para": 4,
+      "subject": "Фізична культура",
+      "teacher": "Ясінська К.О.",
+      "room": "214",
+      "cancelled": false,
+      "substituted": false
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "group": "П34",
+  "course": 3,
+  "day_parity": "odd",
+  "tomorrow_parity": "even",
+  "tomorrow_date": "20.07.2026",
+  "subs_tomorrow_missing": true,
+  "today": "Неділя",
+  "today_lessons": [],
+  "tomorrow": "Понеділок",
+  "tomorrow_lessons": [
+    {
+      "para": 1,
+      "subject": "Операційні системи",
+      "teacher": "Лінецький Б.І.",
+      "room": "403",
+      "cancelled": false,
+      "substituted": false
+    },
+    {
+      "para": 2,
+      "subject": "Українська мова за професійним спрямуванням",
+      "teacher": "Римар Т.В.",
+      "room": "403",
+      "cancelled": false,
+      "substituted": false
+    }
+  ]
+}

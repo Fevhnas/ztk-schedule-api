@@ -1,0 +1,37 @@
+{
+  "group": "МТ33А",
+  "course": 3,
+  "day_parity": "odd",
+  "tomorrow_parity": "even",
+  "tomorrow_date": "20.07.2026",
+  "subs_tomorrow_missing": true,
+  "today": "Неділя",
+  "today_lessons": [],
+  "tomorrow": "Понеділок",
+  "tomorrow_lessons": [
+    {
+      "para": 3,
+      "subject": "Фізичне виховання",
+      "teacher": "Лисюк Д.О.",
+      "room": null,
+      "cancelled": false,
+      "substituted": false
+    },
+    {
+      "para": 4,
+      "subject": "Основи метрології і стандартизації",
+      "teacher": "Шурпан М.М.",
+      "room": null,
+      "cancelled": false,
+      "substituted": false
+    },
+    {
+      "para": 5,
+      "subject": "Українська мова за професійним спрямуванням",
+      "teacher": "Дишлева Т.І.",
+      "room": null,
+      "cancelled": false,
+      "substituted": false
+    }
+  ]
+}

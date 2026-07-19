@@ -1,0 +1,37 @@
+{
+  "group": "Д38",
+  "course": 3,
+  "day_parity": "odd",
+  "tomorrow_parity": "even",
+  "tomorrow_date": "20.07.2026",
+  "subs_tomorrow_missing": true,
+  "today": "Неділя",
+  "today_lessons": [],
+  "tomorrow": "Понеділок",
+  "tomorrow_lessons": [
+    {
+      "para": 1,
+      "subject": "Рисунок",
+      "teacher": "Богомаз П.Я.",
+      "room": "112",
+      "cancelled": false,
+      "substituted": false
+    },
+    {
+      "para": 2,
+      "subject": "Рисунок",
+      "teacher": "Богомаз П.Я.",
+      "room": "112",
+      "cancelled": false,
+      "substituted": false
+    },
+    {
+      "para": 3,
+      "subject": "Пластичне моделювання об'єктів дизайну",
+      "teacher": "Фурманюк С.М.",
+      "room": "112",
+      "cancelled": false,
+      "substituted": false
+    }
+  ]
+}
