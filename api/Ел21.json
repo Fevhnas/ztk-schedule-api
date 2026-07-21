@@ -1,47 +1,12 @@
 {
   "group": "Ел21",
   "course": 2,
-  "day_parity": "even",
-  "tomorrow_parity": "odd",
-  "tomorrow_date": "21.07.2026",
+  "day_parity": "odd",
+  "tomorrow_parity": "even",
+  "tomorrow_date": "22.07.2026",
   "subs_tomorrow_missing": true,
-  "today": "Понеділок",
+  "today": "Вівторок",
   "today_lessons": [
-    {
-      "para": 1,
-      "subject": "Історія України",
-      "teacher": "Міщенко В.А.",
-      "room": "311",
-      "cancelled": false,
-      "substituted": false
-    },
-    {
-      "para": 2,
-      "subject": "Вища математика",
-      "teacher": "Петрова А.А.",
-      "room": "311",
-      "cancelled": false,
-      "substituted": false
-    },
-    {
-      "para": 3,
-      "subject": "Конструкційні та електротехнічні матеріали",
-      "teacher": "Білоконь С.Ф.",
-      "room": "311",
-      "cancelled": false,
-      "substituted": false
-    },
-    {
-      "para": 4,
-      "subject": "Теоретичні основи електротехніки",
-      "teacher": "Пегарькова Г.А.",
-      "room": "311",
-      "cancelled": false,
-      "substituted": false
-    }
-  ],
-  "tomorrow": "Вівторок",
-  "tomorrow_lessons": [
     {
       "para": 1,
       "subject": "Комп'ютерна техніка та програмування",
@@ -62,6 +27,41 @@
       "para": 3,
       "subject": "Фізична культура",
       "teacher": "Опанащук Ю.М.",
+      "room": "311",
+      "cancelled": false,
+      "substituted": false
+    }
+  ],
+  "tomorrow": "Середа",
+  "tomorrow_lessons": [
+    {
+      "para": 1,
+      "subject": "Технічна механіка",
+      "teacher": "Шевчик О.А.",
+      "room": "311",
+      "cancelled": false,
+      "substituted": false
+    },
+    {
+      "para": 2,
+      "subject": "Електричні апарати",
+      "teacher": "Білоконь С.Ф.",
+      "room": "311",
+      "cancelled": false,
+      "substituted": false
+    },
+    {
+      "para": 3,
+      "subject": "Вища математика",
+      "teacher": "Петрова А.А.",
+      "room": "311",
+      "cancelled": false,
+      "substituted": false
+    },
+    {
+      "para": 4,
+      "subject": "Основи охорони праці",
+      "teacher": "Дишлева Т.І.",
       "room": "311",
       "cancelled": false,
       "substituted": false

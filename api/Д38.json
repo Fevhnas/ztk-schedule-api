@@ -1,39 +1,12 @@
 {
   "group": "Д38",
   "course": 3,
-  "day_parity": "even",
-  "tomorrow_parity": "odd",
-  "tomorrow_date": "21.07.2026",
+  "day_parity": "odd",
+  "tomorrow_parity": "even",
+  "tomorrow_date": "22.07.2026",
   "subs_tomorrow_missing": true,
-  "today": "Понеділок",
+  "today": "Вівторок",
   "today_lessons": [
-    {
-      "para": 1,
-      "subject": "Рисунок",
-      "teacher": "Богомаз П.Я.",
-      "room": "112",
-      "cancelled": false,
-      "substituted": false
-    },
-    {
-      "para": 2,
-      "subject": "Рисунок",
-      "teacher": "Богомаз П.Я.",
-      "room": "112",
-      "cancelled": false,
-      "substituted": false
-    },
-    {
-      "para": 3,
-      "subject": "Пластичне моделювання об'єктів дизайну",
-      "teacher": "Фурманюк С.М.",
-      "room": "112",
-      "cancelled": false,
-      "substituted": false
-    }
-  ],
-  "tomorrow": "Вівторок",
-  "tomorrow_lessons": [
     {
       "para": 2,
       "subject": "Орнаментика та етнодизайн",
@@ -46,6 +19,33 @@
       "para": 3,
       "subject": "Іноземна мова за професійним спрямуванням",
       "teacher": "Ходжаєва Е.Т.",
+      "room": "112",
+      "cancelled": false,
+      "substituted": false
+    }
+  ],
+  "tomorrow": "Середа",
+  "tomorrow_lessons": [
+    {
+      "para": 1,
+      "subject": "Основи проєктної майстерності",
+      "teacher": "Мельник О.А.",
+      "room": "112",
+      "cancelled": false,
+      "substituted": false
+    },
+    {
+      "para": 2,
+      "subject": "Живопис",
+      "teacher": "Богомаз П.Я.",
+      "room": "112",
+      "cancelled": false,
+      "substituted": false
+    },
+    {
+      "para": 3,
+      "subject": "Живопис",
+      "teacher": "Богомаз П.Я.",
       "room": "112",
       "cancelled": false,
       "substituted": false
