@@ -1,31 +1,12 @@
 {
   "group": "Д49",
   "course": 4,
-  "day_parity": "odd",
-  "tomorrow_parity": "even",
-  "tomorrow_date": "22.07.2026",
+  "day_parity": "even",
+  "tomorrow_parity": "odd",
+  "tomorrow_date": "23.07.2026",
   "subs_tomorrow_missing": true,
-  "today": "Вівторок",
+  "today": "Середа",
   "today_lessons": [
-    {
-      "para": 3,
-      "subject": "Живопис",
-      "teacher": "Кулик В.Г.",
-      "room": "402",
-      "cancelled": false,
-      "substituted": false
-    },
-    {
-      "para": 4,
-      "subject": "Живопис",
-      "teacher": "Кулик В.Г.",
-      "room": "402",
-      "cancelled": false,
-      "substituted": false
-    }
-  ],
-  "tomorrow": "Середа",
-  "tomorrow_lessons": [
     {
       "para": 4,
       "subject": "Рисунок",
@@ -38,6 +19,25 @@
       "para": 5,
       "subject": "Проєктування візуальних комунікацій",
       "teacher": "Єлісєєва С.С.",
+      "room": "402",
+      "cancelled": false,
+      "substituted": false
+    }
+  ],
+  "tomorrow": "Четвер",
+  "tomorrow_lessons": [
+    {
+      "para": 3,
+      "subject": "Рисунок",
+      "teacher": "Кулик В.Г.",
+      "room": "402",
+      "cancelled": false,
+      "substituted": false
+    },
+    {
+      "para": 4,
+      "subject": "Рисунок",
+      "teacher": "Кулик В.Г.",
       "room": "402",
       "cancelled": false,
       "substituted": false

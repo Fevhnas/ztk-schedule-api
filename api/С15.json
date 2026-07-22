@@ -1,47 +1,12 @@
 {
   "group": "С15",
   "course": 1,
-  "day_parity": "odd",
-  "tomorrow_parity": "even",
-  "tomorrow_date": "22.07.2026",
+  "day_parity": "even",
+  "tomorrow_parity": "odd",
+  "tomorrow_date": "23.07.2026",
   "subs_tomorrow_missing": true,
-  "today": "Вівторок",
+  "today": "Середа",
   "today_lessons": [
-    {
-      "para": 1,
-      "subject": "Українська мова",
-      "teacher": "Степанчук Н.В.",
-      "room": "416",
-      "cancelled": false,
-      "substituted": false
-    },
-    {
-      "para": 2,
-      "subject": "Іноземна мова",
-      "teacher": "Семенюк Л.М.",
-      "room": "416",
-      "cancelled": false,
-      "substituted": false
-    },
-    {
-      "para": 3,
-      "subject": "Фізика і астрономія",
-      "teacher": "Гордійчук О.М.",
-      "room": "416",
-      "cancelled": false,
-      "substituted": false
-    },
-    {
-      "para": 4,
-      "subject": "Всесвітня історія",
-      "teacher": "Іваненко Л.Л.",
-      "room": "416",
-      "cancelled": false,
-      "substituted": false
-    }
-  ],
-  "tomorrow": "Середа",
-  "tomorrow_lessons": [
     {
       "para": 1,
       "subject": "Українська література",
@@ -70,6 +35,33 @@
       "para": 4,
       "subject": "Фізика і астрономія",
       "teacher": "Гордійчук О.М.",
+      "room": "416",
+      "cancelled": false,
+      "substituted": false
+    }
+  ],
+  "tomorrow": "Четвер",
+  "tomorrow_lessons": [
+    {
+      "para": 2,
+      "subject": "Українська література",
+      "teacher": "Римар Т.В.",
+      "room": "416",
+      "cancelled": false,
+      "substituted": false
+    },
+    {
+      "para": 3,
+      "subject": "Інформатика",
+      "teacher": "Пашкевич О.М.",
+      "room": "416",
+      "cancelled": false,
+      "substituted": false
+    },
+    {
+      "para": 4,
+      "subject": "Зарубіжна література",
+      "teacher": "Міщанчук Н.О.",
       "room": "416",
       "cancelled": false,
       "substituted": false

@@ -1,31 +1,12 @@
 {
   "group": "С35",
   "course": 3,
-  "day_parity": "odd",
-  "tomorrow_parity": "even",
-  "tomorrow_date": "22.07.2026",
+  "day_parity": "even",
+  "tomorrow_parity": "odd",
+  "tomorrow_date": "23.07.2026",
   "subs_tomorrow_missing": true,
-  "today": "Вівторок",
+  "today": "Середа",
   "today_lessons": [
-    {
-      "para": 3,
-      "subject": "Соціальна роботи з різними групами клієнтів",
-      "teacher": "Остапчук В.В.",
-      "room": "313",
-      "cancelled": false,
-      "substituted": false
-    },
-    {
-      "para": 4,
-      "subject": "Психологія розвитку людини",
-      "teacher": "Остапчук В.В.",
-      "room": "313",
-      "cancelled": false,
-      "substituted": false
-    }
-  ],
-  "tomorrow": "Середа",
-  "tomorrow_lessons": [
     {
       "para": 4,
       "subject": "Соціальна роботи з різними групами клієнтів",
@@ -46,6 +27,33 @@
       "para": 6,
       "subject": "Право соціального забезпечення",
       "teacher": "Луганський Г.Г.",
+      "room": "313",
+      "cancelled": false,
+      "substituted": false
+    }
+  ],
+  "tomorrow": "Четвер",
+  "tomorrow_lessons": [
+    {
+      "para": 3,
+      "subject": "Психологія розвитку людини",
+      "teacher": "Остапчук В.В.",
+      "room": "313",
+      "cancelled": false,
+      "substituted": false
+    },
+    {
+      "para": 4,
+      "subject": "Іноземна мова за професійним спрямуванням",
+      "teacher": "Семенюк Л.М.",
+      "room": "313",
+      "cancelled": false,
+      "substituted": false
+    },
+    {
+      "para": 5,
+      "subject": "Українська мова за професійним спрямуванням",
+      "teacher": "Римар Т.В.",
       "room": "313",
       "cancelled": false,
       "substituted": false

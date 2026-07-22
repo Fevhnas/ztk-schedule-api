@@ -1,31 +1,12 @@
 {
   "group": "П33",
   "course": 3,
-  "day_parity": "odd",
-  "tomorrow_parity": "even",
-  "tomorrow_date": "22.07.2026",
+  "day_parity": "even",
+  "tomorrow_parity": "odd",
+  "tomorrow_date": "23.07.2026",
   "subs_tomorrow_missing": true,
-  "today": "Вівторок",
+  "today": "Середа",
   "today_lessons": [
-    {
-      "para": 2,
-      "subject": "Українська мова за професійним спрямуванням",
-      "teacher": "Римар Т.В.",
-      "room": "413",
-      "cancelled": false,
-      "substituted": false
-    },
-    {
-      "para": 3,
-      "subject": "Іноземна мова за професійним спрямуванням",
-      "teacher": "Карплюк Т.Ю.",
-      "room": "413",
-      "cancelled": false,
-      "substituted": false
-    }
-  ],
-  "tomorrow": "Середа",
-  "tomorrow_lessons": [
     {
       "para": 1,
       "subject": "Операційні системи",
@@ -46,6 +27,25 @@
       "para": 3,
       "subject": "Основи програмної інженерії",
       "teacher": "Ширман М.Ю.",
+      "room": "413",
+      "cancelled": false,
+      "substituted": false
+    }
+  ],
+  "tomorrow": "Четвер",
+  "tomorrow_lessons": [
+    {
+      "para": 1,
+      "subject": "WEB-дизайн",
+      "teacher": "Цимбалюк М.М.",
+      "room": "413",
+      "cancelled": false,
+      "substituted": false
+    },
+    {
+      "para": 2,
+      "subject": "Основи менеджменту",
+      "teacher": "Зіневич К.С.",
       "room": "413",
       "cancelled": false,
       "substituted": false

@@ -1,39 +1,12 @@
 {
   "group": "Д39",
   "course": 3,
-  "day_parity": "odd",
-  "tomorrow_parity": "even",
-  "tomorrow_date": "22.07.2026",
+  "day_parity": "even",
+  "tomorrow_parity": "odd",
+  "tomorrow_date": "23.07.2026",
   "subs_tomorrow_missing": true,
-  "today": "Вівторок",
+  "today": "Середа",
   "today_lessons": [
-    {
-      "para": 1,
-      "subject": "Рисунок",
-      "teacher": "Богомаз П.Я.",
-      "room": "400",
-      "cancelled": false,
-      "substituted": false
-    },
-    {
-      "para": 2,
-      "subject": "Рисунок",
-      "teacher": "Богомаз П.Я.",
-      "room": "400",
-      "cancelled": false,
-      "substituted": false
-    },
-    {
-      "para": 3,
-      "subject": "Пластичне моделювання об'єктів дизайну",
-      "teacher": "Фурманюк С.М.",
-      "room": "400",
-      "cancelled": false,
-      "substituted": false
-    }
-  ],
-  "tomorrow": "Середа",
-  "tomorrow_lessons": [
     {
       "para": 2,
       "subject": "Основи проєктної майстерності",
@@ -52,6 +25,25 @@
     },
     {
       "para": 4,
+      "subject": "Художнє проєктування",
+      "teacher": "Черніченко А.П.",
+      "room": "400",
+      "cancelled": false,
+      "substituted": false
+    }
+  ],
+  "tomorrow": "Четвер",
+  "tomorrow_lessons": [
+    {
+      "para": 2,
+      "subject": "Економіка та організація діяльності",
+      "teacher": "Капітула Л.Л.",
+      "room": "400",
+      "cancelled": false,
+      "substituted": false
+    },
+    {
+      "para": 3,
       "subject": "Художнє проєктування",
       "teacher": "Черніченко А.П.",
       "room": "400",
