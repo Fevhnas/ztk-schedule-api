@@ -1,47 +1,12 @@
 {
   "group": "П23",
   "course": 2,
-  "day_parity": "even",
-  "tomorrow_parity": "odd",
-  "tomorrow_date": "23.07.2026",
+  "day_parity": "odd",
+  "tomorrow_parity": "even",
+  "tomorrow_date": "24.07.2026",
   "subs_tomorrow_missing": true,
-  "today": "Середа",
+  "today": "Четвер",
   "today_lessons": [
-    {
-      "para": 1,
-      "subject": "Основи програмування та алгоритмічні мови",
-      "teacher": "Дашкевич В.В.",
-      "room": "301",
-      "cancelled": false,
-      "substituted": false
-    },
-    {
-      "para": 2,
-      "subject": "Фізична культура",
-      "teacher": "Опанащук Ю.М.",
-      "room": "301",
-      "cancelled": false,
-      "substituted": false
-    },
-    {
-      "para": 3,
-      "subject": "Прикладна математика",
-      "teacher": "Подлєсна К.А.",
-      "room": "301",
-      "cancelled": false,
-      "substituted": false
-    },
-    {
-      "para": 4,
-      "subject": "Бази даних",
-      "teacher": "Скачков В.О.",
-      "room": "301",
-      "cancelled": false,
-      "substituted": false
-    }
-  ],
-  "tomorrow": "Четвер",
-  "tomorrow_lessons": [
     {
       "para": 1,
       "subject": "Українська мова",
@@ -70,6 +35,33 @@
       "para": 4,
       "subject": "Всесвітня іісторія",
       "teacher": "Іваненко Л.Л.",
+      "room": "301",
+      "cancelled": false,
+      "substituted": false
+    }
+  ],
+  "tomorrow": "П'ятниця",
+  "tomorrow_lessons": [
+    {
+      "para": 1,
+      "subject": "Прикладна математика",
+      "teacher": "Подлєсна К.А.",
+      "room": "301",
+      "cancelled": false,
+      "substituted": false
+    },
+    {
+      "para": 2,
+      "subject": "Архітектура комп'ютера",
+      "teacher": "Дашкевич В.В.",
+      "room": "301",
+      "cancelled": false,
+      "substituted": false
+    },
+    {
+      "para": 3,
+      "subject": "Охорона праці",
+      "teacher": "Гуменюк О.М.",
       "room": "301",
       "cancelled": false,
       "substituted": false
