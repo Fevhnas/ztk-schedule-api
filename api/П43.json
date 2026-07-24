@@ -1,16 +1,16 @@
 {
   "group": "П43",
   "course": 4,
-  "day_parity": "odd",
-  "tomorrow_parity": "even",
-  "tomorrow_date": "24.07.2026",
+  "day_parity": "even",
+  "tomorrow_parity": "odd",
+  "tomorrow_date": "25.07.2026",
   "subs_tomorrow_missing": true,
-  "today": "Четвер",
+  "today": "П'ятниця",
   "today_lessons": [
     {
       "para": 4,
-      "subject": "Розробка застосувань клієнт- сервер",
-      "teacher": "Кравець І.В.",
+      "subject": "Проєктний практикум",
+      "teacher": "Макарчук О.В.",
       "room": "319",
       "cancelled": false,
       "substituted": false
@@ -19,36 +19,11 @@
       "para": 5,
       "subject": "Економіка і організація виробництва",
       "teacher": "Камінська М.Б.",
-      "room": "319",
-      "cancelled": false,
-      "substituted": false
-    },
-    {
-      "para": 6,
-      "subject": "Проєктний практикум",
-      "teacher": "Макарчук О.В.",
       "room": "319",
       "cancelled": false,
       "substituted": false
     }
   ],
-  "tomorrow": "П'ятниця",
-  "tomorrow_lessons": [
-    {
-      "para": 4,
-      "subject": "Проєктний практикум",
-      "teacher": "Макарчук О.В.",
-      "room": "319",
-      "cancelled": false,
-      "substituted": false
-    },
-    {
-      "para": 5,
-      "subject": "Економіка і організація виробництва",
-      "teacher": "Камінська М.Б.",
-      "room": "319",
-      "cancelled": false,
-      "substituted": false
-    }
-  ]
+  "tomorrow": "Субота",
+  "tomorrow_lessons": []
 }
