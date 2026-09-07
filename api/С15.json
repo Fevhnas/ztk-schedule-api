@@ -4,7 +4,7 @@
   "day_parity": "odd",
   "tomorrow_parity": "even",
   "tomorrow_date": "08.09.2026",
-  "subs_tomorrow_missing": true,
+  "subs_tomorrow_missing": false,
   "today": "Понеділок",
   "today_lessons": [
     {
