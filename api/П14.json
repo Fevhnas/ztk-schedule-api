@@ -4,7 +4,7 @@
   "day_parity": "odd",
   "tomorrow_parity": "even",
   "tomorrow_date": "10.09.2026",
-  "subs_tomorrow_missing": true,
+  "subs_tomorrow_missing": false,
   "today": "Середа",
   "today_lessons": [
     {
@@ -60,11 +60,11 @@
     },
     {
       "para": 3,
-      "subject": "Математика (алгебра і початок аналізу та геометрія)",
-      "teacher": "Петрова А.А.",
-      "room": "300",
+      "subject": "Зарубіжна література",
+      "teacher": "Міщанчук Н.О.",
+      "room": "405",
       "cancelled": false,
-      "substituted": false
+      "substituted": true
     },
     {
       "para": 4,

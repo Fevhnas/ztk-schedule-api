@@ -4,7 +4,7 @@
   "day_parity": "odd",
   "tomorrow_parity": "even",
   "tomorrow_date": "10.09.2026",
-  "subs_tomorrow_missing": true,
+  "subs_tomorrow_missing": false,
   "today": "Середа",
   "today_lessons": [
     {
@@ -44,11 +44,11 @@
   "tomorrow_lessons": [
     {
       "para": 1,
-      "subject": "Іноземна мова",
-      "teacher": "Карплюк Т.М.",
-      "room": "319",
+      "subject": "Фізична культура",
+      "teacher": "Ярмоленко В.С.",
+      "room": "403",
       "cancelled": false,
-      "substituted": false
+      "substituted": true
     },
     {
       "para": 2,
